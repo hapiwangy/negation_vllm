@@ -1,0 +1,207 @@
+Your task: Rewrite each yes/no question into EXACTLY ONE soft-negation version.
+
+The goal is to produce a question that is a TRUE semantic negation
+(or contradiction) of the original yes/no condition,
+while staying in the SAME semantic domain.
+
+==================================================
+1. Core Requirement (highest priority)
+==================================================
+The rewritten question MUST:
+- Contradict the original yes/no meaning
+- Preserve the same subject, object, and situation
+- Remain a yes/no question
+- Be answerable from the same evidence as the original
+
+The negated question must flip the truth condition of the original.
+
+==================================================
+2. Forbidden Words (strict, zero tolerance)
+==================================================
+You may NOT use:
+- not, no, n’t, never, none, nobody, nothing
+- any word containing these substrings
+
+If any forbidden substring appears, the output is invalid.
+
+==================================================
+3. Allowed Soft-Negation Strategies
+==================================================
+
+You MAY use ONE of the following strategies per question:
+
+(A) Absence / Exclusion (preferred for existence questions)
+- lack of
+- absence of
+- absent from
+- missing
+- free from
+- excluded from
+- barren of
+- denied of
+
+(B) Action Negation (preferred for actions)
+Use forms that deny the action itself, NOT its outcome:
+- refrain from
+- avoid
+- cease to
+- fail to
+- struggle to
+- omit to
+- refuse to
+
+Avoid outcome-only interpretations where possible.
+
+(C) Attribute / State Weakening
+- lack of
+- short of
+- devoid of
+- deprived of
+- deficient in
+- insufficient in
+- scarce in
+- void of
+- fall short of
+
+(D) Contrastive Identity / Comparison (preferred for identity)
+- other than
+- different from
+- instead of
+- rather than
+- as opposed to
+
+==================================================
+4. Semantic Domain Rules (MANDATORY)
+==================================================
+
+(4a) Existence / SOME / ANY questions
+Examples:
+- "Is there X?"
+- "Are there any X?"
+- "Are some of the X Y?"
+
+You MUST express absence or lack.
+DO NOT use quantity softening.
+
+Valid:
+- "Is there a lack of X?"
+- "Are X absent?"
+- "Is there an absence of X?"
+
+Invalid:
+- "Are there fewer X than expected?"
+
+--------------------------------------------------
+
+(4b) Exact-number questions (two, both, three, etc.)
+You MAY use:
+- "fewer than <number>"
+
+Example:
+- "Are there three sheep?"
+→ "Are there fewer than three sheep?"
+
+--------------------------------------------------
+
+(4c) ALL / EVERY / BOTH questions
+You MUST indicate that some members lack the property.
+
+Example:
+- "Are all the flowers white?"
+→ "Are some of the flowers lacking whiteness?"
+
+--------------------------------------------------
+
+(4d) Action questions (doing / performing / engaging)
+You MUST negate the ACTION ITSELF.
+
+Do NOT shift to:
+- resources
+- ability
+- external conditions
+
+Prefer:
+- refraining from the action
+- avoiding the action
+- ceasing to perform the action
+
+--------------------------------------------------
+
+(4e) Identity / Category questions
+You MUST stay in the same identity domain.
+
+Prefer contrastive identity forms:
+- "other than"
+- "different from"
+
+Avoid vague property loss unless identity is truly gradable.
+
+==================================================
+5. Naturalness (secondary priority)
+==================================================
+The sentence must be grammatical and understandable.
+Slight awkwardness is acceptable.
+
+Negation correctness is MORE IMPORTANT than fluency.
+
+==================================================
+6. Final Validation Checklist
+==================================================
+Before producing the output, verify:
+
+[ ] No forbidden words or substrings  
+[ ] True semantic negation of the original  
+[ ] Same objects, actions, and context  
+[ ] Existence → absence/lack (Rule 4a)  
+[ ] Actions → action negation (Rule 4d)  
+[ ] ALL/BOTH → some members lack property  
+[ ] Identity preserved (Rule 4e)  
+[ ] No new entities introduced  
+
+==================================================
+7. Output Format (STRICT)
+==================================================
+Return ONLY a JSON list.
+
+Each item MUST follow EXACTLY:
+- do not add any more symbol like " \\ " in the json format
+{
+  "id": "<image_id>",
+  "q": "<original_question>",
+  "neg_q": "<soft_negated_question>",
+  "a": "<yes|no>",
+  "neg_a": "<yes|no>",
+  "neg_type": "soft"
+}
+
+Rules for answers:
+- "neg_a" MUST be the flipped value of "a"
+- yes → no
+- no → yes
+
+========================
+8. ADDITIONAL LOGICAL VALIDATION (DO NOT SKIP)
+========================
+In addition to all previous requirements, each negated question MUST satisfy
+a strict truth-condition flip relative to the original question.
+
+This is a semantic requirement, not a surface-level rewrite.
+
+Before finalizing a negated question, perform the following internal validation:
+
+1. Assume the original question is TRUE in a given situation.
+   Ask: under the same situation, would the negated question also be TRUE?
+   - If YES → this is INVALID and must be rewritten.
+
+2. Assume the original question is FALSE in the same situation.
+   Ask: under that situation, would the negated question be TRUE?
+   - If NO → this is INVALID and must be rewritten.
+
+Only produce the negated question if BOTH conditions above are satisfied.
+
+Paraphrases, synonym substitutions, or strengthened confirmations
+(e.g., "enough" → "sufficient", or restating daylight in another form)
+do NOT count as negation and are strictly forbidden.
+
+If the negated question could ever be true at the same time as the original question,
+it is NOT a valid negation.

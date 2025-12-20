@@ -1,0 +1,802 @@
+[
+    {
+        "neg_q": "Is this man not a professional baseball player?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the dog not waiting?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the sky not blue?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no snow on the mountains?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the window not open?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is she not brushing?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the man not smiling?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Does his tie not pair well with his suit?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Does the man not look happy?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this photo not in color?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the man not wearing a plain tie?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Judging from the dress, was this not taken in a Latin American country?",
+        "part_lengths": {
+            "A": 6,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Are the men not on the sidewalk?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Was this photo not taken recently?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Does the guy not have a tattoo?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is the man's visor not providing his face enough protection?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is the man not riding on a dirt path?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Are the walls not done in a summery color?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is the curtain not patterned?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are the windows not the same size?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no shadow of a tree in the foreground?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7
+        }
+    },
+    {
+        "neg_q": "Did someone not forget his luggage in the snow?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is it not daytime?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the person not wearing a hat?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is the dog not wearing a collar?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is it not a clear day?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no body of water here?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the light not on?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the room not messy?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is this not a TV screen?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no laptop in the image?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the animal not a mammal?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are there no rocks in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Has the sheep not recently been shaved?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are there not three sheep?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the man not having a good time?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Could this photo not be from a zoo?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are the animals not eating?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no zebra?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the giraffe not eating the tree?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are both giraffes not standing?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are they not at a zoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are some of the trees not dead?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are any of the animals not eating?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the giraffe not in the shade?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are these giraffes not living free range?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no rock near the giraffe?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are they not moving?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is this man not angry?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are there no flowers in the vase?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are the flowers not open?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are all the flowers not white?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the man not standing on both foot?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Was this picture not likely taken recently?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Do the gentleman's socks not match his shoes and belt?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Are the zebras not facing the same direction?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this not a horse?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are they not drinking wine at the child's party?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is the man not wearing glasses?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this not a good dessert?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are those kites not in the air?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is this not a hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no ketchup on the hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Has this hot dog not been grilled?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Have you not tried a hot dog like this before?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7
+        }
+    },
+    {
+        "neg_q": "Is this not a toy-sized truck?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is there no carpet on the floor?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is this plane not landing?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the plane not taking off?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are these airliners not?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "Are this cargo planes not?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "Is this bear not a normal size?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no flower arrangement on the lawn?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Are they not playing polo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this man not reading a cell phone screen?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is there no stop sign in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is the man not unhappy?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are the men not going to share the bananas?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Do the painted flowers not match the real ones?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Will the birds not go into the water?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this bird not afraid of the ledge?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are the mountains not high?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no person standing in front of the television?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7
+        }
+    },
+    {
+        "neg_q": "Is there not enough room under the armchairs for a cat to hide?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 10
+        }
+    },
+    {
+        "neg_q": "Are there no numbers on the clock face?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is there no big tree behind the clock?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is this not a wedding?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Does the crust not look burnt?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Does this pizza not have a deep dish crust?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is the banana not freshly peeled?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the banana not closed?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Does this photo not show train tracks?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Does this train not work?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are the giraffes not under the trees?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are there not 3 elephants?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are all of the elephants not full grown?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are the elephants not in the jungle?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is the woman not eating the pizza?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are there no reflections in this picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the water not on?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    }
+]

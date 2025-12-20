@@ -1,0 +1,28 @@
+2025-12-19 16:42:36,037 - INFO - start of the process
+2025-12-19 16:42:36,037 - INFO - Starting Pipeline
+2025-12-19 16:42:36,037 - INFO - Starting process Transformation
+2025-12-19 16:44:26,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:46:44,006 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:51:10,631 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:53:08,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:55:54,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 16:55:54,798 - INFO - successful! Transformation finished in 798.761s
+
+2025-12-19 16:55:54,798 - INFO - Starting process Answer Construction
+2025-12-19 16:55:54,845 - INFO - successful! Answer Construction finished in 0.046s
+
+2025-12-19 16:55:54,845 - INFO - Starting process Mask Generation
+2025-12-19 16:59:33,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 17:04:35,081 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 17:06:10,249 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 17:06:10,677 - INFO - successful! Mask Generation finished in 615.832s
+
+2025-12-19 17:06:10,677 - INFO - Starting process Dataset Compilation
+2025-12-19 17:06:10,709 - INFO - successful! Dataset Compilation finished in 0.032s
+
+2025-12-19 17:06:10,709 - INFO - --- Summary ---
+2025-12-19 17:06:10,709 - INFO - Transformation: 798.761s
+2025-12-19 17:06:10,709 - INFO - Answer Construction: 0.046s
+2025-12-19 17:06:10,709 - INFO - Mask Generation: 615.832s
+2025-12-19 17:06:10,709 - INFO - Dataset Compilation: 0.032s
+2025-12-19 17:06:10,709 - INFO - TOTAL: 1414.672s

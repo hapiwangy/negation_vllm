@@ -1,0 +1,100 @@
+You are given a list of dictionaries as input. Focus on the questions that are under "neg_q".
+
+Your task is to perform a deterministic, multi-step transformation on each question and output structured results.
+You MUST follow the steps in order. No step may be skipped or merged.
+
+================================================
+Step 1 — Split the question into parts
+================================================
+- Find the FIRST occurrence of a standalone negation trigger.
+
+A negation trigger is ONE of the following:
+1) The standalone word "not"
+2) The standalone word "no"
+3) A single-word negation contraction that semantically contains "not"
+   (e.g., "isn't", "aren't", "wasn't", "weren't", "don't", "doesn't",
+    "didn't", "can't", "couldn't", "won't", "wouldn't", "shouldn't")
+
+Matching rules:
+- Match whole word only.
+- Do NOT expand, normalize, or rewrite contractions.
+- Treat the entire contraction as ONE token.
+
+- Part A = the exact substring BEFORE the negation trigger.
+- Part B = the negation trigger itself (original surface form).
+- Part C = the exact substring AFTER the negation trigger,
+           EXCLUDING the final question mark "?".
+
+If there is NO negation trigger:
+- Part A = the exact substring BEFORE the final "?"
+- Part B = ""
+- Part C = ""
+
+Do NOT paraphrase, reorder, normalize, or infer text. Only split.
+
+================================================
+Step 2 — Trim whitespace
+================================================
+For Part A, Part B, and Part C:
+- Remove ALL leading and trailing whitespace.
+
+================================================
+Step 3 — Extract words (SOURCE OF TRUTH)
+================================================
+You MUST extract words from each trimmed part (A, B, C) by scanning left-to-right.
+
+A WORD is defined as ONE of the following:
+1) A number token: one or more digits
+   Pattern: [0-9]+
+2) A letter token with optional internal apostrophes
+   Pattern: [A-Za-z]+ ( ' [A-Za-z]+ )*
+
+Rules:
+- Internal apostrophes are allowed and count as ONE word
+  (e.g., "man's", "isn't", "don't").
+- Hyphens and other symbols BREAK words.
+- Do NOT split by whitespace.
+- Do NOT create empty tokens.
+- Punctuation is never part of a word.
+
+You MUST output the extracted tokens explicitly as:
+
+part_words = {
+  "A": [...],
+  "B": [...],
+  "C": [...],
+}
+
+================================================
+Step 4 — Compute part_lengths
+================================================
+part_lengths MUST be computed ONLY as:
+
+part_lengths.X = length of part_words.X
+
+for X in {A, B, C}.
+
+No other counting method is allowed.
+
+================================================
+Output Format (JSON ONLY)
+================================================
+Return a list in the same order as the input.
+Each item MUST include ALL fields below:
+
+{
+  "neg_q": "<original question>",
+  "part_lengths": {
+    "A": <integer>,
+    "B": <integer>,
+    "C": <integer>
+  },
+}
+
+================================================
+Final Constraints
+================================================
+- Only analyze the "question" field.
+- Use ONLY the first negation trigger.
+- Do NOT add explanations, comments, or extra text.
+- Return valid JSON only.

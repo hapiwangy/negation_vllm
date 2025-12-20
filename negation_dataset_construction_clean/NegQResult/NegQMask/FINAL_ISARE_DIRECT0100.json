@@ -1,0 +1,1102 @@
+[
+    {
+        "id": "458752",
+        "q": "Is this man a professional baseball player?",
+        "a": "yes",
+        "neg_q": "Is this man not a professional baseball player?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "524291",
+        "q": "Is the dog waiting?",
+        "a": "yes",
+        "neg_q": "Is the dog not waiting?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393221",
+        "q": "Is the sky blue?",
+        "a": "yes",
+        "neg_q": "Is the sky not blue?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393221",
+        "q": "Is there snow on the mountains?",
+        "a": "yes",
+        "neg_q": "Is there no snow on the mountains?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393223",
+        "q": "Is the window open?",
+        "a": "yes",
+        "neg_q": "Is the window not open?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393223",
+        "q": "Is she brushing?",
+        "a": "yes",
+        "neg_q": "Is she not brushing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393224",
+        "q": "Is the man smiling?",
+        "a": "no",
+        "neg_q": "Is the man not smiling?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393224",
+        "q": "Does his tie pair well with his suit?",
+        "a": "no",
+        "neg_q": "Does his tie not pair well with his suit?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393224",
+        "q": "Does the man look happy?",
+        "a": "no",
+        "neg_q": "Does the man not look happy?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393224",
+        "q": "Is this photo in color?",
+        "a": "no",
+        "neg_q": "Is this photo not in color?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393224",
+        "q": "Is the man wearing a plain tie?",
+        "a": "no",
+        "neg_q": "Is the man not wearing a plain tie?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524297",
+        "q": "Judging from the dress, was this taken in a Latin American country?",
+        "a": "yes",
+        "neg_q": "Judging from the dress, was this not taken in a Latin American country?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "524297",
+        "q": "Are the men on the sidewalk?",
+        "a": "no",
+        "neg_q": "Are the men not on the sidewalk?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524297",
+        "q": "Was this photo taken recently?",
+        "a": "no",
+        "neg_q": "Was this photo not taken recently?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393227",
+        "q": "Does the guy have a tattoo?",
+        "a": "yes",
+        "neg_q": "Does the guy not have a tattoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393227",
+        "q": "Is the man's visor providing his face enough protection?",
+        "a": "no",
+        "neg_q": "Is the man's visor not providing his face enough protection?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131084",
+        "q": "Is the man riding on a dirt path?",
+        "a": "yes",
+        "neg_q": "Is the man not riding on a dirt path?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131074",
+        "q": "Are the walls done in a summery color?",
+        "a": "yes",
+        "neg_q": "Are the walls not done in a summery color?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131074",
+        "q": "Is the curtain patterned?",
+        "a": "no",
+        "neg_q": "Is the curtain not patterned?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131074",
+        "q": "Are the windows the same size?",
+        "a": "yes",
+        "neg_q": "Are the windows not the same size?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393230",
+        "q": "Is there a shadow of a tree in the foreground?",
+        "a": "no",
+        "neg_q": "Is there no shadow of a tree in the foreground?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393230",
+        "q": "Did someone forget his luggage in the snow?",
+        "a": "no",
+        "neg_q": "Did someone not forget his luggage in the snow?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393230",
+        "q": "Is it daytime?",
+        "a": "yes",
+        "neg_q": "Is it not daytime?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393230",
+        "q": "Is the person wearing a hat?",
+        "a": "no",
+        "neg_q": "Is the person not wearing a hat?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131087",
+        "q": "Is the dog wearing a collar?",
+        "a": "yes",
+        "neg_q": "Is the dog not wearing a collar?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131087",
+        "q": "Is it a clear day?",
+        "a": "yes",
+        "neg_q": "Is it not a clear day?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131087",
+        "q": "Is there a body of water here?",
+        "a": "yes",
+        "neg_q": "Is there no body of water here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131075",
+        "q": "Is the light on?",
+        "a": "no",
+        "neg_q": "Is the light not on?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131075",
+        "q": "Is the room messy?",
+        "a": "no",
+        "neg_q": "Is the room not messy?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131075",
+        "q": "Is this a TV screen?",
+        "a": "yes",
+        "neg_q": "Is this not a TV screen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131075",
+        "q": "Is there a laptop in the image?",
+        "a": "yes",
+        "neg_q": "Is there no laptop in the image?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "137045",
+        "q": "Is the animal a mammal?",
+        "a": "yes",
+        "neg_q": "Is the animal not a mammal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131093",
+        "q": "Are there rocks in the picture?",
+        "a": "yes",
+        "neg_q": "Are there no rocks in the picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131093",
+        "q": "Has the sheep recently been shaved?",
+        "a": "no",
+        "neg_q": "Has the sheep not recently been shaved?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131093",
+        "q": "Are there three sheep?",
+        "a": "yes",
+        "neg_q": "Are there not three sheep?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "524311",
+        "q": "Is the man having a good time?",
+        "a": "yes",
+        "neg_q": "Is the man not having a good time?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Could this photo be from a zoo?",
+        "a": "yes",
+        "neg_q": "Could this photo not be from a zoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Are the animals eating?",
+        "a": "yes",
+        "neg_q": "Are the animals not eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Is there a zebra?",
+        "a": "no",
+        "neg_q": "Is there no zebra?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe eating the tree?",
+        "a": "yes",
+        "neg_q": "Is the giraffe not eating the tree?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Are both giraffes standing?",
+        "a": "no",
+        "neg_q": "Are both giraffes not standing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "25",
+        "q": "Are they at a zoo?",
+        "a": "yes",
+        "neg_q": "Are they not at a zoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Are some of the trees dead?",
+        "a": "yes",
+        "neg_q": "Are some of the trees not dead?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Are any of the animals eating?",
+        "a": "yes",
+        "neg_q": "Are any of the animals not eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe in the shade?",
+        "a": "no",
+        "neg_q": "Is the giraffe not in the shade?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "25",
+        "q": "Are these giraffes living free range?",
+        "a": "yes",
+        "neg_q": "Are these giraffes not living free range?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "25",
+        "q": "Is there a rock near the giraffe?",
+        "a": "no",
+        "neg_q": "Is there no rock near the giraffe?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "262172",
+        "q": "Are they moving?",
+        "a": "yes",
+        "neg_q": "Are they not moving?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131101",
+        "q": "Is this man angry?",
+        "a": "no",
+        "neg_q": "Is this man not angry?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "30",
+        "q": "Are there flowers in the vase?",
+        "a": "yes",
+        "neg_q": "Are there no flowers in the vase?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "30",
+        "q": "Are the flowers open?",
+        "a": "yes",
+        "neg_q": "Are the flowers not open?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "30",
+        "q": "Are all the flowers white?",
+        "a": "no",
+        "neg_q": "Are all the flowers not white?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524320",
+        "q": "Is the man standing on both foot?",
+        "a": "no",
+        "neg_q": "Is the man not standing on both foot?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524320",
+        "q": "Was this picture likely taken recently?",
+        "a": "no",
+        "neg_q": "Was this picture not likely taken recently?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524320",
+        "q": "Do the gentleman's socks match his shoes and belt?",
+        "a": "no",
+        "neg_q": "Do the gentleman's socks not match his shoes and belt?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "240304",
+        "q": "Are the zebras facing the same direction?",
+        "a": "yes",
+        "neg_q": "Are the zebras not facing the same direction?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "34",
+        "q": "Is this a horse?",
+        "a": "no",
+        "neg_q": "Is this not a horse?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393251",
+        "q": "Are they drinking wine at the child's party?",
+        "a": "yes",
+        "neg_q": "Are they not drinking wine at the child's party?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393251",
+        "q": "Is the man wearing glasses?",
+        "a": "yes",
+        "neg_q": "Is the man not wearing glasses?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262180",
+        "q": "Is this a good dessert?",
+        "a": "yes",
+        "neg_q": "Is this not a good dessert?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "524325",
+        "q": "Are those kites in the air?",
+        "a": "yes",
+        "neg_q": "Are those kites not in the air?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "43697",
+        "q": "Is this a hot dog?",
+        "a": "yes",
+        "neg_q": "Is this not a hot dog?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "43697",
+        "q": "Is there ketchup on the hot dog?",
+        "a": "no",
+        "neg_q": "Is there no ketchup on the hot dog?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "43697",
+        "q": "Has this hot dog been grilled?",
+        "a": "no",
+        "neg_q": "Has this hot dog not been grilled?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "43697",
+        "q": "Have you tried a hot dog like this before?",
+        "a": "yes",
+        "neg_q": "Have you not tried a hot dog like this before?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262184",
+        "q": "Is this a toy-sized truck?",
+        "a": "no",
+        "neg_q": "Is this not a toy-sized truck?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131113",
+        "q": "Is there a carpet on the floor?",
+        "a": "yes",
+        "neg_q": "Is there no carpet on the floor?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262187",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "neg_q": "Is this plane not landing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "262187",
+        "q": "Is the plane taking off?",
+        "a": "no",
+        "neg_q": "Is the plane not taking off?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131118",
+        "q": "Are these airliners?",
+        "a": "yes",
+        "neg_q": "Are these airliners not?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131118",
+        "q": "Are this cargo planes?",
+        "a": "yes",
+        "neg_q": "Are this cargo planes not?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262191",
+        "q": "Is this bear a normal size?",
+        "a": "no",
+        "neg_q": "Is this bear not a normal size?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "49",
+        "q": "Is there a flower arrangement on the lawn?",
+        "a": "yes",
+        "neg_q": "Is there no flower arrangement on the lawn?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "49",
+        "q": "Are they playing polo?",
+        "a": "no",
+        "neg_q": "Are they not playing polo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "524338",
+        "q": "Is this man reading a cell phone screen?",
+        "a": "no",
+        "neg_q": "Is this man not reading a cell phone screen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131126",
+        "q": "Is there a stop sign in the picture?",
+        "a": "yes",
+        "neg_q": "Is there no stop sign in the picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "131127",
+        "q": "Is the man unhappy?",
+        "a": "no",
+        "neg_q": "Is the man not unhappy?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131127",
+        "q": "Are the men going to share the bananas?",
+        "a": "no",
+        "neg_q": "Are the men not going to share the bananas?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131128",
+        "q": "Do the painted flowers match the real ones?",
+        "a": "no",
+        "neg_q": "Do the painted flowers not match the real ones?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "262201",
+        "q": "Will the birds go into the water?",
+        "a": "no",
+        "neg_q": "Will the birds not go into the water?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "262201",
+        "q": "Is this bird afraid of the ledge?",
+        "a": "no",
+        "neg_q": "Is this bird not afraid of the ledge?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "131133",
+        "q": "Are the mountains high?",
+        "a": "yes",
+        "neg_q": "Are the mountains not high?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262207",
+        "q": "Is there a person standing in front of the television?",
+        "a": "yes",
+        "neg_q": "Is there no person standing in front of the television?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "262207",
+        "q": "Is there enough room under the armchairs for a cat to hide?",
+        "a": "yes",
+        "neg_q": "Is there not enough room under the armchairs for a cat to hide?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "64",
+        "q": "Are there numbers on the clock face?",
+        "a": "no",
+        "neg_q": "Are there no numbers on the clock face?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "64",
+        "q": "Is there a big tree behind the clock?",
+        "a": "yes",
+        "neg_q": "Is there no big tree behind the clock?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "458763",
+        "q": "Is this a wedding?",
+        "a": "no",
+        "neg_q": "Is this not a wedding?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "567990",
+        "q": "Does the crust look burnt?",
+        "a": "yes",
+        "neg_q": "Does the crust not look burnt?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "567990",
+        "q": "Does this pizza have a deep dish crust?",
+        "a": "yes",
+        "neg_q": "Does this pizza not have a deep dish crust?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393286",
+        "q": "Is the banana freshly peeled?",
+        "a": "yes",
+        "neg_q": "Is the banana not freshly peeled?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393286",
+        "q": "Is the banana closed?",
+        "a": "no",
+        "neg_q": "Is the banana not closed?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "71",
+        "q": "Does this photo show train tracks?",
+        "a": "yes",
+        "neg_q": "Does this photo not show train tracks?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "71",
+        "q": "Does this train work?",
+        "a": "yes",
+        "neg_q": "Does this train not work?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "72",
+        "q": "Are the giraffes under the trees?",
+        "a": "yes",
+        "neg_q": "Are the giraffes not under the trees?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393228",
+        "q": "Are there 3 elephants?",
+        "a": "yes",
+        "neg_q": "Are there not 3 elephants?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393228",
+        "q": "Are all of the elephants full grown?",
+        "a": "no",
+        "neg_q": "Are all of the elephants not full grown?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393228",
+        "q": "Are the elephants in the jungle?",
+        "a": "yes",
+        "neg_q": "Are the elephants not in the jungle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "no"
+    },
+    {
+        "id": "393290",
+        "q": "Is the woman eating the pizza?",
+        "a": "no",
+        "neg_q": "Is the woman not eating the pizza?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393291",
+        "q": "Are there any reflections in this picture?",
+        "a": "no",
+        "neg_q": "Are there no reflections in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    },
+    {
+        "id": "393292",
+        "q": "Is the water on?",
+        "a": "no",
+        "neg_q": "Is the water not on?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "yes"
+    }
+]

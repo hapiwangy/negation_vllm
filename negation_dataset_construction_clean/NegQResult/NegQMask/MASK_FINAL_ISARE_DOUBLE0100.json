@@ -1,0 +1,1002 @@
+[
+    {
+        "neg_q": "Is it not the case that this man is no professional baseball player?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not true that the dog fails to wait?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no blue in the sky?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no snow on the mountains?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no open window?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Does it not appear that she fails to brush?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the man fails to smile?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not true that his tie fails to pair well with his suit?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the man fails to look happy?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no color in this photo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the man is without a plain tie?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that, judging from the dress, this fails to be taken in a Latin American country?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 8,
+            "D": 2,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Is it not true that the men fail to be on the sidewalk?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this fails to have been taken recently?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the guy has no tattoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the man's visor fails to provide his face enough protection?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the man is on no dirt path?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that the walls are without a summery color?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the curtain is without a pattern?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the windows fail to differ in size?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no shadow of a tree in the foreground?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Is it not the case that no one forgot his luggage in the snow?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Is it not true that it fails to be daytime?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the person is without a hat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the dog is without a collar?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that this day fails to be unclear?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no body of water here?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there is no light on?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that the room is without mess?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this fails to be a TV screen?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no laptop in the image?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the animal fails to be a mammal?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there are no rocks in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the sheep failed to be shaved recently?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there are no fewer than three sheep?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the man fails to have a good time?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that this photo fails to be from a zoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the animals fail to eat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no zebra?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the giraffe fails to stop eating the tree?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not true that both giraffes fail to stand?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that they fail to be at a zoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there are no dead trees among the trees?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not the case that no animals are eating?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the giraffe is without shade?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not the case that these giraffes fail to live free range?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no rock near the giraffe?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that they fail to move?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that this man is without anger?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there are no flowers in the vase?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the flowers fail to be closed?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the flowers fail to be all white?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not true that the man is without standing on both feet?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this fails to have been taken recently?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the gentleman's socks fail to match his shoes and belt?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 2,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the zebras fail to face different directions?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Does it not appear that this fails to be a horse?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that they fail to refrain from drinking wine at the child's party?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 8
+        }
+    },
+    {
+        "neg_q": "Is it not true that the man is without glasses?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this dessert fails to be good?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that those kites fail to be in the air?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that this fails to be a hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no ketchup on the hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not the case that this hot dog failed to be grilled?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that you have never tried a hot dog like this before?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 12,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this fails to be a toy-sized truck?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no carpet on the floor?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that this plane fails to land?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the plane fails to take off?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not the case that these fail to be airliners?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that these fail to be cargo planes?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Would it not seem that this bear fails to be normal size?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no flower arrangement on the lawn?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Could it not be said that they fail to play polo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the man fails to read a cell phone screen?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there is no stop sign in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not true that the man is without unhappiness?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the men fail to share the bananas?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the painted flowers fail to match the real ones?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the birds fail to go into the water?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that this bird is without fear of the ledge?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the mountains fail to be low?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no person standing in front of the television?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no room under the armchairs for a cat to hide?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 9
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there are no numbers on the clock face?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no big tree behind the clock?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Does it not appear that this fails to be a wedding?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the crust fails to look burnt?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not true that this pizza is without a deep dish crust?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the banana fails to be freshly peeled?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the banana fails to be closed?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Could it not be said that this photo shows no train tracks?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Does it not appear that this train fails to work?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the giraffes fail to be under the trees?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not true that there are no fewer than three elephants?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the elephants fail to be all full grown?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the elephants fail to be in the jungle?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 2,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the woman fails to eat the pizza?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 2,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there are no reflections in this picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the water fails to be on?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 2,
+            "E": 2
+        }
+    }
+]

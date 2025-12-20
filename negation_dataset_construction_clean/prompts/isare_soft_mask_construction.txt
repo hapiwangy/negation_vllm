@@ -1,0 +1,139 @@
+You are given a list of dictionaries as input.
+Each dictionary contains a single English sentence (or question).
+
+Your task is to perform a deterministic, multi-step transformation on each sentence
+to analyze SOFT negation structure and token counts.
+
+You MUST follow the steps EXACTLY in order.
+No step may be skipped, merged, or reinterpreted.
+Do NOT infer meaning. Operate ONLY on surface text.
+
+================================================
+Step 0 — Soft negation trigger inventory (NO direct negation)
+================================================
+You will be given (or you must assume) an UNRESTRICTED list of SOFT negation triggers.
+
+- The list is called SOFT_NEG_TRIGGERS and can contain:
+  (a) single-word triggers (e.g., "lacking")
+  (b) multi-word triggers of ANY length (e.g., "other than", "refraining from",
+      "in a time period other than", "an absence of", etc.)
+
+Hard constraint:
+- SOFT_NEG_TRIGGERS will NOT include direct-negation-only items such as:
+  "not", "no", "never", nor contractions like "isn't", "don't", etc.
+- If any direct negation word appears in the sentence anyway, IGNORE it completely.
+  Only SOFT_NEG_TRIGGERS are considered triggers.
+
+Rules:
+- Do NOT assume a fixed or small trigger set.
+- Do NOT reject triggers based on length.
+- Treat each trigger as a literal phrase to match on the surface string.
+
+Matching is case-insensitive, but you MUST preserve the original surface form from the sentence
+when outputting Part B.
+
+================================================
+Step 1 — Find the FIRST soft negation trigger occurrence
+================================================
+Find the FIRST occurrence in the sentence among ALL phrases in SOFT_NEG_TRIGGERS.
+
+Matching rules:
+- Prefer the earliest start index in the sentence.
+- If two triggers start at the same index, prefer the LONGER trigger (more characters).
+- Triggers must match at word boundaries:
+  - The character before the match (if any) cannot be a letter/digit.
+  - The character after the match (if any) cannot be a letter/digit.
+- Do NOT expand, normalize, or rewrite the sentence.
+- Use ONLY this first matched trigger.
+
+================================================
+Step 2 — Split the sentence into parts
+================================================
+Split the sentence into THREE parts based on the matched trigger:
+
+- Part A: exact substring BEFORE the trigger
+- Part B: exact substring of the trigger as it appears in the sentence (original surface form)
+- Part C: exact substring AFTER the trigger
+
+If the sentence ends with a question mark "?":
+- Exclude the final "?" from Part C (only if it is the final character).
+
+If NO soft negation trigger is found:
+- If the sentence ends with "?", Part A = substring before the final "?"
+- Otherwise, Part A = the full sentence
+- Part B = ""
+- Part C = ""
+
+Do NOT paraphrase, reorder, normalize, or infer text.
+Only split by character offsets.
+
+================================================
+Step 3 — Trim whitespace
+================================================
+For Part A, Part B, and Part C:
+- Remove ALL leading and trailing whitespace.
+- Do NOT modify internal whitespace.
+
+================================================
+Step 4 — Extract words (SOURCE OF TRUTH)
+================================================
+You MUST extract words from each trimmed part (A, B, C) by scanning left-to-right.
+
+A WORD is defined as ONE of the following:
+1) A number token:
+   Pattern: [0-9]+
+2) A letter token with optional internal apostrophes:
+   Pattern: [A-Za-z]+ ( ' [A-Za-z]+ )*
+
+Rules:
+- Internal apostrophes are allowed and count as ONE word
+  (e.g., "man's").
+- Hyphens and all other symbols BREAK words.
+- Do NOT split based on whitespace.
+- Punctuation is NEVER part of a word.
+- Do NOT create empty tokens.
+
+You MUST output the extracted tokens explicitly as:
+
+part_words = {
+  "A": [...],
+  "B": [...],
+  "C": [...],
+}
+
+================================================
+Step 5 — Compute part_lengths (NEGATION LENGTH BY WORD COUNT)
+================================================
+Compute lengths STRICTLY as follows:
+
+part_lengths.X = length of part_words.X   for X in {A, B, C}
+
+This means:
+- The soft negation length (Part B) is counted by how many WORD tokens it contains.
+  Example: "absence of" => 2 tokens; "in a time period other than" => 6 tokens.
+
+No other counting method is allowed.
+
+================================================
+Output Format (JSON ONLY)
+================================================
+Return a list in the SAME order as the input.
+Each item MUST include ALL fields below:
+
+{
+  "neg_q": "<original sentence>",
+  "part_lengths": {
+    "A": <integer>,
+    "B": <integer>,
+    "C": <integer>
+  }
+}
+
+================================================
+Final Constraints
+================================================
+- Only analyze the sentence text.
+- Use ONLY the first soft negation trigger occurrence (earliest start index).
+- IGNORE any direct negation words even if they appear.
+- Do NOT add explanations, comments, or extra text.
+- Return VALID JSON ONLY.

@@ -1,0 +1,386 @@
+[
+    {
+        "neg_q": "What is not the color of the players shirt?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "What is not the color of the snow?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is the person not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of the persons headwear?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "What is not the color of the toothbrush?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is the child not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is the business man not doing in the picture?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What colors are not shown in this picture?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What is not the color of his hat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the jacket?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is this person not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is the man not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of the sky?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is the person not wearing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of his coat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is she not holding?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What does the green light, on the TV, not indicate?",
+        "part_lengths": {
+            "A": 8,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "How big is the TV not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is not the color of the bear?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What does the man not have on his face?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What do these giraffes not have in common?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Where is there no giraffe?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "How is the man not sitting?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of the leaves?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the umbrella?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Which hand does not hold the umbrella?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "What is not the color of the vase?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is the man not holding?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the type of ice cream on the plate?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 8
+        }
+    },
+    {
+        "neg_q": "What is not the color of the napkin?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the carpet?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the refrigerator?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the plane?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the shape of the windows on the side of the plane?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 11
+        }
+    },
+    {
+        "neg_q": "What is not the color of the horse closer to the camera?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 9
+        }
+    },
+    {
+        "neg_q": "What is not the pattern on the pants?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the girl's shirt?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Where is there no Brooklyn Avenue?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Which direction is Brooklyn Ave not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is not the color of the flowers?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What colors are not the flowers?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Where is there no bird?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What direction is the bird not looking?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What time of day is it not?",
+        "part_lengths": {
+            "A": 6,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is not the color of the animal?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the plane?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the seats?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Where is there no mirror?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    }
+]

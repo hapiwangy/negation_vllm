@@ -1,0 +1,170 @@
+You are given a JSON list of dictionaries as input. Each dictionary contains an English negated question in the field "neg_q" (source of truth).
+
+Your task is to split EACH "neg_q" into FIVE parts (A–E) using the FIRST TWO negation triggers found from left to right, where a negation trigger may be a HARD negation trigger OR a SOFT negation trigger phrase.
+
+You MUST follow the steps EXACTLY in order.
+No step may be skipped, merged, or reinterpreted.
+Do NOT infer meaning. Operate ONLY on surface text.
+
+================================================
+Step 0 — Negation trigger inventories
+================================================
+You must assume TWO inventories:
+
+(A) HARD_NEG_TRIGGERS (direct negation triggers)
+Match whole-token only:
+1) standalone "not"
+2) standalone "no"
+3) single-word contractions containing "not"
+   e.g., "isn't", "aren't", "wasn't", "weren't", "don't", "doesn't",
+         "didn't", "can't", "couldn't", "won't", "wouldn't", "shouldn't"
+
+Rules for HARD_NEG_TRIGGERS:
+- Match whole word/token only.
+- Do NOT expand, normalize, or rewrite contractions.
+- Treat the entire contraction as ONE token.
+
+(B) SOFT_NEG_TRIGGERS (soft negation triggers; NO direct negation)
+You will be given (or you must assume) an UNRESTRICTED list called SOFT_NEG_TRIGGERS.
+- It can contain single-word triggers (e.g., "lacking")
+- It can contain multi-word triggers of ANY length (e.g., "other than", "refraining from",
+  "in a time period other than", "an absence of", etc.)
+- SOFT_NEG_TRIGGERS will NOT include direct-negation-only items such as:
+  "not", "no", "never", nor contractions like "isn't", "don't", etc.
+
+Rules for SOFT_NEG_TRIGGERS:
+- Do NOT assume a fixed or small trigger set.
+- Do NOT reject triggers based on length.
+- Treat each trigger as a literal phrase to match on the surface string.
+- Matching is case-insensitive, but you MUST preserve the original surface form from the sentence
+  when outputting Part B or Part D.
+
+================================================
+Step 1 — Find the FIRST and SECOND negation triggers (combined search)
+================================================
+Define ALL_TRIGGERS = HARD_NEG_TRIGGERS ∪ SOFT_NEG_TRIGGERS.
+
+For matching ANY trigger in ALL_TRIGGERS:
+- Matching is case-insensitive for comparison, but output must preserve original surface form.
+- Triggers must match at word boundaries:
+  - The character before the match (if any) cannot be a letter/digit.
+  - The character after the match (if any) cannot be a letter/digit.
+- Prefer the earliest start index in the sentence.
+- If two triggers start at the same index, prefer the LONGER trigger (more characters).
+- Do NOT expand, normalize, rewrite, or paraphrase the sentence.
+- Use ONLY these first two matched triggers:
+  - neg1 = the first matched trigger in the entire sentence
+  - neg2 = the first matched trigger AFTER the end of neg1 (search only in the remaining suffix)
+
+IMPORTANT:
+- Do NOT ignore hard negations.
+- Do NOT ignore soft negations.
+- Both are eligible; choose by earliest start index (tie-breaker: longer trigger).
+
+================================================
+Step 2 — Split "neg_q" into five parts (A–E) by character offsets
+================================================
+Let the original question be neg_q.
+
+2.1 Find neg1 (if any):
+- Part A = exact substring BEFORE neg1
+- Part B = neg1 itself (original surface form)
+
+2.2 Consider the remaining substring AFTER neg1 (call it R1):
+- In R1, find neg2 (if any):
+  - Part C = exact substring in R1 BEFORE neg2
+  - Part D = neg2 itself (original surface form)
+  - Part E = exact substring AFTER neg2, EXCLUDING the final question mark "?" if it is the final character
+
+Fallbacks:
+- If neg1 is NOT found:
+  - If neg_q ends with "?", Part A = substring before the final "?"
+  - Else Part A = the full string
+  - Part B = ""
+  - Part C = ""
+  - Part D = ""
+  - Part E = ""
+
+- If neg1 is found but neg2 is NOT found in R1:
+  - Part A = substring before neg1
+  - Part B = neg1
+  - Part C = substring after neg1, EXCLUDING the final "?" if it is the final character
+  - Part D = ""
+  - Part E = ""
+
+Notes:
+- Do NOT remove or alter internal punctuation or spacing during splitting.
+- Only exclude a trailing final "?" (the very last character) from Part C or Part E (as specified above).
+
+================================================
+Step 3 — Trim whitespace
+================================================
+For each part (A, B, C, D, E):
+- Remove ALL leading and trailing whitespace.
+- Do NOT modify internal whitespace.
+
+================================================
+Step 4 — Extract words (SOURCE OF TRUTH)
+================================================
+You MUST extract words from each trimmed part (A–E) by scanning left-to-right.
+
+A WORD is defined as ONE of the following:
+1) A number token: one or more digits
+   Pattern: [0-9]+
+2) A letter token with optional internal apostrophes
+   Pattern: [A-Za-z]+ ( ' [A-Za-z]+ )*
+
+Rules:
+- Internal apostrophes are allowed and count as ONE word
+  (e.g., "man's", "isn't", "don't").
+- Hyphens and all other symbols BREAK words.
+- Do NOT split based on whitespace.
+- Punctuation is NEVER part of a word.
+- Do NOT create empty tokens.
+
+You MUST output the extracted tokens explicitly as:
+part_words = {
+  "A": [...],
+  "B": [...],
+  "C": [...],
+  "D": [...],
+  "E": [...]
+}
+
+================================================
+Step 5 — Compute part_lengths
+================================================
+Compute lengths STRICTLY as:
+part_lengths.X = length of part_words.X  for X in {A, B, C, D, E}
+
+This means:
+- If a SOFT trigger is multi-word (e.g., "absence of"), Part B or Part D may contain multiple WORD tokens,
+  and its length must reflect that.
+
+No other counting method is allowed.
+
+================================================
+Output Format (JSON ONLY)
+================================================
+Return a JSON list in the same order as the input.
+Each output item MUST include ALL fields below:
+
+{
+  "neg_q": "<original neg_q>",
+  "part_lengths": {
+    "A": <integer>,
+    "B": <integer>,
+    "C": <integer>,
+    "D": <integer>,
+    "E": <integer>
+  }
+}
+
+================================================
+Final Constraints
+================================================
+- Only analyze the "neg_q" field for splitting/tokenization.
+- Use ONLY the first two negation triggers found left-to-right according to the matching rules:
+  earliest start index; tie => longer trigger.
+- Do NOT add explanations, comments, or extra text outside the JSON.
+- Return valid JSON only.
