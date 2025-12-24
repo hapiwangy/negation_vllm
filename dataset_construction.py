@@ -16,6 +16,10 @@ def trans_into_dict(input:str):
             "answer": i['answer']
         })
     return new_input
+# should constraint the input dataset be named with datasetname_yesno and datasetname_other
+# since we need to have the mapping between the image_id and the questions
+
+
 # read the yesno questions
 with open(os.path.join(CUR_PATH, TASK, DATASET, "vqa_yesno.json"), "r", encoding="utf-8") as fp:
     yesno_content = json.loads(fp.read())
@@ -24,6 +28,8 @@ with open(os.path.join(CUR_PATH, TASK, DATASET, "vqa_other.json"), "r", encoding
     wh_content = json.loads(fp.read())
 
 # clean the input
+## leave the content in yes no only not starts with wh- and also the answer is yes or no
+## leave the content in wh only starts with wh- and the answer is not yesno
 yesno_content = trans_into_dict(yesno_content)
 wh_content = trans_into_dict(wh_content)
 yesno_content = [x for x in yesno_content if x['answer'] == "yes" or x['answer'] == "no"]
