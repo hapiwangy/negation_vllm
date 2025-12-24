@@ -1,0 +1,402 @@
+[
+    {
+        "id": "393292",
+        "q": "Is this photo outdoors?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this photo not outdoors?",
+        "neg_a": "no"
+    },
+    {
+        "id": "78",
+        "q": "Are the clock and owl made in the same artistic fashion?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Are the clock and owl not made in the same artistic fashion?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "78",
+        "q": "Is that owl a candle?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is that owl not a candle?",
+        "neg_a": "no"
+    },
+    {
+        "id": "81",
+        "q": "Does this planes tail have 4 colors?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Does this planes tail not have 4 colors?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Is this plane not landing?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane taking off?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Is this plane not taking off?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "81",
+        "q": "Are these wings strong?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Are these wings not strong?",
+        "neg_a": "no"
+    },
+    {
+        "id": "86",
+        "q": "Is that a bicycle?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is that not a bicycle?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a cow farm?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this not a cow farm?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a prairie?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this not a prairie?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524375",
+        "q": "Is there a village in the background?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no village in the background?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "131160",
+        "q": "Would you be able to find a mosque in this city?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Would you not be able to find a mosque in this city?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Is there ketchup?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no ketchup?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is the hotdog well seasoned?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is the hotdog not well seasoned?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Is this a healthy meal?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Is this not a healthy meal?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a spoon in this photo?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no spoon in this photo?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is this breakfast?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Is this not breakfast?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a drink in this picture?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no drink in this picture?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Do these hot dogs look like they taste good?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Do these hot dogs not look like they taste good?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Are those tomatoes on the sandwich?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Are those tomatoes not on the sandwich?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Are the fries plain?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Are the fries not plain?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Does this breakfast dish primarily carbohydrates?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Does this breakfast dish not primarily contain carbohydrates?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Has someone started eating?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Has someone not started eating?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Would this be good for dessert?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Would this not be good for dessert?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a butter plate on the table?",
+        "a": "yes",
+        "type": "EX",
+        "neg_q": "Is there no butter plate on the table?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Does this have lettuce?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Does this not have lettuce?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Does the food look good?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Does the food not look good?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Is this meat?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this not meat?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524377",
+        "q": "Would this typically be eaten for breakfast?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Would this not typically be eaten for breakfast?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524377",
+        "q": "Is that bacon from a delicatessen?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is that bacon not from a delicatessen?",
+        "neg_a": "no"
+    },
+    {
+        "id": "393306",
+        "q": "Is the man wearing formal clothes?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Is the man not wearing formal clothes?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a deodorant on the sink?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no deodorant on the sink?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a full roll of toilet paper in the bathroom?",
+        "a": "yes",
+        "type": "EX",
+        "neg_q": "Is there no full roll of toilet paper in the bathroom?",
+        "neg_a": "no"
+    },
+    {
+        "id": "262159",
+        "q": "Would someone be able to watch you change from the outside?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Would someone not be able to watch you change from the outside?",
+        "neg_a": "no"
+    },
+    {
+        "id": "262159",
+        "q": "Does the shower have a glass door?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Does the shower not have a glass door?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "262159",
+        "q": "Is the towel rack silver?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Is the towel rack not silver?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a shower curtain?",
+        "a": "yes",
+        "type": "EX",
+        "neg_q": "Is there no shower curtain?",
+        "neg_a": "no"
+    },
+    {
+        "id": "262159",
+        "q": "Is the toilet lid down?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is the toilet lid not down?",
+        "neg_a": "no"
+    },
+    {
+        "id": "92",
+        "q": "Does this cake look like it chocolate?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Does this cake not look like it is chocolate?",
+        "neg_a": "no"
+    },
+    {
+        "id": "94",
+        "q": "Is this a small town?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this not a small town?",
+        "neg_a": "no"
+    },
+    {
+        "id": "393311",
+        "q": "Will these planes be used to transport people?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Will these planes not be used to transport people?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524386",
+        "q": "Is the room carpeted?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is the room not carpeted?",
+        "neg_a": "no"
+    },
+    {
+        "id": "524386",
+        "q": "Is there a fireplace?",
+        "a": "no",
+        "type": "EX",
+        "neg_q": "Is there no fireplace?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524386",
+        "q": "Are stains on the floor?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Are stains not on the floor?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524386",
+        "q": "Are these boys at home?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Are these boys not at home?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "524386",
+        "q": "Is this a 60's motif?",
+        "a": "no",
+        "type": "AT",
+        "neg_q": "Is this not a 60's motif?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "393317",
+        "q": "Is the light green?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is the light not green?",
+        "neg_a": "no"
+    },
+    {
+        "id": "393317",
+        "q": "Is it raining?",
+        "a": "no",
+        "type": "AC",
+        "neg_q": "Is it not raining?",
+        "neg_a": "yes"
+    },
+    {
+        "id": "393317",
+        "q": "Is this woman crossing a street?",
+        "a": "yes",
+        "type": "AC",
+        "neg_q": "Is this woman not crossing a street?",
+        "neg_a": "no"
+    },
+    {
+        "id": "393317",
+        "q": "Is this in the United States?",
+        "a": "yes",
+        "type": "AT",
+        "neg_q": "Is this not in the United States?",
+        "neg_a": "no"
+    }
+]

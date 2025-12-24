@@ -1,0 +1,106 @@
+[
+    {
+        "neg_q": "What is not the color of the middle vase?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "What is the table not made of?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "What is the giraffe not eating?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Where is there no sink located?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Where is there no soap?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of the window frame?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "What is not the pattern on the shower curtain?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "What are not the colors of the countertop?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is this person not wearing on head?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "What are the animals not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Where is there no human?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is not the color of the sign?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What is not the color of the tray?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    }
+]

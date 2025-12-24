@@ -1,0 +1,703 @@
+[
+    {
+        "id": "131101",
+        "q": "What color is the umbrella?",
+        "a": "pink",
+        "neg_q": "What is not the color of the umbrella?",
+        "options": {
+            "a": "pink",
+            "b": "purple"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131101",
+        "q": "Which hand holds the umbrella?",
+        "a": "right",
+        "neg_q": "Which hand does not hold the umbrella?",
+        "options": {
+            "a": "right",
+            "b": "left"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "30",
+        "q": "What is the vase sitting on?",
+        "a": "railing",
+        "neg_q": "What is the vase not sitting on?",
+        "options": {
+            "a": "railing",
+            "b": "balcony"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "30",
+        "q": "What color is the vase?",
+        "a": "white",
+        "neg_q": "What is not the color of the vase?",
+        "options": {
+            "a": "white",
+            "b": "cream"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "240304",
+        "q": "What is the zebra eating?",
+        "a": "grass",
+        "neg_q": "What is the zebra not eating?",
+        "options": {
+            "a": "grass",
+            "b": "hay"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "240304",
+        "q": "What is the tree covered with?",
+        "a": "wire",
+        "neg_q": "What is the tree not covered with?",
+        "options": {
+            "a": "wire",
+            "b": "ivy"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "34",
+        "q": "What is the animal eating?",
+        "a": "grass",
+        "neg_q": "What is the animal not eating?",
+        "options": {
+            "a": "grass",
+            "b": "leaves"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393251",
+        "q": "What is the man holding?",
+        "a": "knife",
+        "neg_q": "What is the man not holding?",
+        "options": {
+            "a": "knife",
+            "b": "fork"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393251",
+        "q": "What is the man cutting?",
+        "a": "cake",
+        "neg_q": "What is the man not cutting?",
+        "options": {
+            "a": "cake",
+            "b": "bread"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "What color is the napkin?",
+        "a": "white",
+        "neg_q": "What is not the color of the napkin?",
+        "options": {
+            "a": "white",
+            "b": "beige"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "What is the hog dog sitting on?",
+        "a": "bun",
+        "neg_q": "What is the hog dog not sitting on?",
+        "options": {
+            "a": "bun",
+            "b": "bread"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262184",
+        "q": "What is the sky full of?",
+        "a": "clouds",
+        "neg_q": "What is the sky not full of?",
+        "options": {
+            "a": "clouds",
+            "b": "fog"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131113",
+        "q": "What is the color of the carpet?",
+        "a": "brown",
+        "neg_q": "What is not the color of the carpet?",
+        "options": {
+            "a": "brown",
+            "b": "tan"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131113",
+        "q": "What color is the refrigerator?",
+        "a": "silver",
+        "neg_q": "What is not the color of the refrigerator?",
+        "options": {
+            "a": "silver",
+            "b": "gray"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262187",
+        "q": "What color is the plane?",
+        "a": "red",
+        "neg_q": "What is not the color of the plane?",
+        "options": {
+            "a": "red",
+            "b": "white"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262187",
+        "q": "What shape are the windows on the side of the plane?",
+        "a": "square",
+        "neg_q": "What shape are the windows on the side of the plane not?",
+        "options": {
+            "a": "square",
+            "b": "rectangular"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "49",
+        "q": "What color horse is closer to the camera?",
+        "a": "black",
+        "neg_q": "What color horse is not closer to the camera?",
+        "options": {
+            "a": "black",
+            "b": "brown"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "213863",
+        "q": "What pattern is on the pants?",
+        "a": "stripes",
+        "neg_q": "What is not the pattern on the pants?",
+        "options": {
+            "a": "stripes",
+            "b": "plaid"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "213863",
+        "q": "What sport is this person playing?",
+        "a": "baseball",
+        "neg_q": "What sport is this person not playing?",
+        "options": {
+            "a": "baseball",
+            "b": "softball"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393268",
+        "q": "What color is the girl's shirt?",
+        "a": "blue",
+        "neg_q": "What is not the color of the girl's shirt?",
+        "options": {
+            "a": "blue",
+            "b": "green"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393268",
+        "q": "What are they drinking?",
+        "a": "beer",
+        "neg_q": "What are they not drinking?",
+        "options": {
+            "a": "beer",
+            "b": "soda"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131126",
+        "q": "Where is Brooklyn Avenue?",
+        "a": "bottom",
+        "neg_q": "Where is there no Brooklyn Avenue?",
+        "options": {
+            "a": "bottom",
+            "b": "top"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131126",
+        "q": "Which direction is Brooklyn Ave?",
+        "a": "north",
+        "neg_q": "Which direction is Brooklyn Ave not?",
+        "options": {
+            "a": "north",
+            "b": "south"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "131128",
+        "q": "What color are the flowers?",
+        "a": "yellow and white",
+        "neg_q": "What is not the color of the flowers?",
+        "options": {
+            "a": "yellow and white",
+            "b": "pink and white"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131128",
+        "q": "What colors are the flowers?",
+        "a": "yellow and white",
+        "neg_q": "What colors are the flowers not?",
+        "options": {
+            "a": "yellow and white",
+            "b": "pink and white"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "262201",
+        "q": "Where is the bird?",
+        "a": "on cliff",
+        "neg_q": "Where is there no bird?",
+        "options": {
+            "a": "on cliff",
+            "b": "on ledge"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262201",
+        "q": "What direction is the bird looking?",
+        "a": "right",
+        "neg_q": "What direction is the bird not looking?",
+        "options": {
+            "a": "right",
+            "b": "left"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "370986",
+        "q": "What time of day is it?",
+        "a": "morning",
+        "neg_q": "What time of day is it not?",
+        "options": {
+            "a": "morning",
+            "b": "afternoon"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "262204",
+        "q": "What color is the animal?",
+        "a": "gray",
+        "neg_q": "What is not the color of the animal?",
+        "options": {
+            "a": "gray",
+            "b": "brown"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131133",
+        "q": "What color is the plane?",
+        "a": "red and white",
+        "neg_q": "What is not the color of the plane?",
+        "options": {
+            "a": "red",
+            "b": "white"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262207",
+        "q": "What color are the seats?",
+        "a": "tan",
+        "neg_q": "What is not the color of the seats?",
+        "options": {
+            "a": "tan",
+            "b": "beige"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262207",
+        "q": "Where is the mirror?",
+        "a": "wall",
+        "neg_q": "Where is there no mirror?",
+        "options": {
+            "a": "wall",
+            "b": "door"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "458763",
+        "q": "What are the vases sitting on?",
+        "a": "table",
+        "neg_q": "What are the vases not sitting on?",
+        "options": {
+            "a": "table",
+            "b": "shelf"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    }
+]

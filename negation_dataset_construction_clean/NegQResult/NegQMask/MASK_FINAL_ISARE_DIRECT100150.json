@@ -1,0 +1,402 @@
+[
+    {
+        "neg_q": "Is this photo not outdoors?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are the clock and owl not made in the same artistic fashion?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is that owl not a candle?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Does this planes tail not have 4 colors?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is this plane not landing?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is this plane not taking off?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are these wings not strong?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is that not a bicycle?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this not a cow farm?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is this not a prairie?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is there no village in the background?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Would you not be able to find a mosque in this city?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 9
+        }
+    },
+    {
+        "neg_q": "Is there no ketchup?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the hotdog not well seasoned?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this not a healthy meal?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no spoon in this photo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this not breakfast?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no drink in this picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Do these hot dogs not look like they taste good?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Are those tomatoes not on the sandwich?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are the fries not plain?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Does this breakfast dish not primarily contain carbohydrates?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Has someone not started eating?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Would this not be good for dessert?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is there no butter plate on the table?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Does this not have lettuce?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Does the food not look good?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this not meat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Would this not typically be eaten for breakfast?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is that bacon not from a delicatessen?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is the man not wearing formal clothes?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there no deodorant on the sink?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is there no full roll of toilet paper in the bathroom?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 8
+        }
+    },
+    {
+        "neg_q": "Would someone not be able to watch you change from the outside?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 9
+        }
+    },
+    {
+        "neg_q": "Does the shower not have a glass door?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the towel rack not silver?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no shower curtain?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the toilet lid not down?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Does this cake not look like it is chocolate?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is this not a small town?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Will these planes not be used to transport people?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is the room not carpeted?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there no fireplace?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are stains not on the floor?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are these boys not at home?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this not a 60's motif?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the light not green?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is it not raining?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is this woman not crossing a street?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is this not in the United States?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    }
+]

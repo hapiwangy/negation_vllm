@@ -1,0 +1,402 @@
+[
+    {
+        "neg_q": "Are the flowers lacking openness?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are some of the flowers lacking whiteness?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the man failing to stand on both feet?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this picture free from recent capture?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are the gentleman's socks different from his shoes and belt?",
+        "part_lengths": {
+            "A": 4,
+            "B": 2,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are the zebras facing different directions?",
+        "part_lengths": {
+            "A": 4,
+            "B": 2,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "Is this other than a horse?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are they refraining from drinking wine at the child's party?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is the man devoid of glasses?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is this dessert lacking goodness?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are those kites absent from the air?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this other than a hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there an absence of ketchup on the hot dog?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Did this hot dog fail to be grilled?",
+        "part_lengths": {
+            "A": 4,
+            "B": 3,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Have you refrained from trying a hot dog like this before?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 7
+        }
+    },
+    {
+        "neg_q": "Is this other than a toy-sized truck?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is there a lack of carpet on the floor?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this plane failing to land?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the plane failing to take off?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are these other than airliners?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are these other than cargo planes?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this bear different from normal size?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is there an absence of a flower arrangement on the lawn?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Are they refraining from playing polo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is this man failing to read a cell phone screen?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is there an absence of a stop sign in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is the man devoid of happiness?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Are the men refusing to share the bananas?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are the painted flowers different from the real ones?",
+        "part_lengths": {
+            "A": 4,
+            "B": 2,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Will the birds refrain from going into the water?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is this bird devoid of fear of the ledge?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Are the mountains lacking height?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there an absence of a person standing in front of the television?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 8
+        }
+    },
+    {
+        "neg_q": "Is there a lack of room under the armchairs for a cat to hide?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 9
+        }
+    },
+    {
+        "neg_q": "Is there a lack of numbers on the clock face?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is there an absence of a big tree behind the clock?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 6
+        }
+    },
+    {
+        "neg_q": "Is this other than a wedding?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is the crust lacking signs of burning?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is this pizza other than deep dish?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the banana lacking a fresh peel?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is the banana lacking closedness?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "Is there an absence of train tracks in this photo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "Is this train lacking working function?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are the giraffes absent from under the trees?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Are there fewer than three elephants?",
+        "part_lengths": {
+            "A": 2,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are some of the elephants lacking full growth?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Are the elephants absent from the jungle?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "Is the woman refraining from eating the pizza?",
+        "part_lengths": {
+            "A": 3,
+            "B": 2,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Is there an absence of reflections in this picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 3,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "Is the water failing to be on?",
+        "part_lengths": {
+            "A": 3,
+            "B": 3,
+            "C": 1
+        }
+    }
+]

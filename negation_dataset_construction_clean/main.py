@@ -6,10 +6,15 @@ from pipeline import (
     step4_dataset_compiler
 )
 
-# lof the result
+# log the result
 import logging
+from datetime import datetime
+
+run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+log_filename = f"app_{run_id}.log"
+
 logging.basicConfig(
-    filename="app.log",
+    filename=log_filename,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     encoding="utf-8"
@@ -18,9 +23,9 @@ def main():
     logging.info("start of the process")
 
     steps = [
-        ("Transformation", step1_transformation.run),
+        # ("Transformation", step1_transformation.run),
         ("Answer Construction", step2_answer_builder.run),
-        ("Mask Generation", step3_mask_generation.run),
+        # ("Mask Generation", step3_mask_generation.run),
         ("Dataset Compilation", step4_dataset_compiler.run),
     ]
 

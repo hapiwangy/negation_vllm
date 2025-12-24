@@ -1,0 +1,1035 @@
+[
+    {
+        "id": "393292",
+        "q": "Is this photo outdoors?",
+        "a": "yes",
+        "neg_q": "Is this photo not outdoors?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "78",
+        "q": "Are the clock and owl made in the same artistic fashion?",
+        "a": "no",
+        "neg_q": "Are the clock and owl not made in the same artistic fashion?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "78",
+        "q": "Is that owl a candle?",
+        "a": "yes",
+        "neg_q": "Is that owl not a candle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "81",
+        "q": "Does this planes tail have 4 colors?",
+        "a": "no",
+        "neg_q": "Does this planes tail not have 4 colors?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "81",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "neg_q": "Is this plane not landing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "81",
+        "q": "Is this plane taking off?",
+        "a": "no",
+        "neg_q": "Is this plane not taking off?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "81",
+        "q": "Are these wings strong?",
+        "a": "yes",
+        "neg_q": "Are these wings not strong?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "86",
+        "q": "Is that a bicycle?",
+        "a": "yes",
+        "neg_q": "Is that not a bicycle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524375",
+        "q": "Is this a cow farm?",
+        "a": "yes",
+        "neg_q": "Is this not a cow farm?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524375",
+        "q": "Is this a prairie?",
+        "a": "yes",
+        "neg_q": "Is this not a prairie?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524375",
+        "q": "Is there a village in the background?",
+        "a": "no",
+        "neg_q": "Is there no village in the background?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131160",
+        "q": "Would you be able to find a mosque in this city?",
+        "a": "yes",
+        "neg_q": "Would you not be able to find a mosque in this city?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is there ketchup?",
+        "a": "no",
+        "neg_q": "Is there no ketchup?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is the hotdog well seasoned?",
+        "a": "yes",
+        "neg_q": "Is the hotdog not well seasoned?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is this a healthy meal?",
+        "a": "no",
+        "neg_q": "Is this not a healthy meal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is there a spoon in this photo?",
+        "a": "no",
+        "neg_q": "Is there no spoon in this photo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is this breakfast?",
+        "a": "no",
+        "neg_q": "Is this not breakfast?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is there a drink in this picture?",
+        "a": "no",
+        "neg_q": "Is there no drink in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Do these hot dogs look like they taste good?",
+        "a": "yes",
+        "neg_q": "Do these hot dogs not look like they taste good?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Are those tomatoes on the sandwich?",
+        "a": "no",
+        "neg_q": "Are those tomatoes not on the sandwich?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Are the fries plain?",
+        "a": "no",
+        "neg_q": "Are the fries not plain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Does this breakfast dish primarily carbohydrates?",
+        "a": "yes",
+        "neg_q": "Does this breakfast dish not primarily contain carbohydrates?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Has someone started eating?",
+        "a": "no",
+        "neg_q": "Has someone not started eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Would this be good for dessert?",
+        "a": "no",
+        "neg_q": "Would this not be good for dessert?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is there a butter plate on the table?",
+        "a": "yes",
+        "neg_q": "Is there no butter plate on the table?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Does this have lettuce?",
+        "a": "no",
+        "neg_q": "Does this not have lettuce?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Does the food look good?",
+        "a": "yes",
+        "neg_q": "Does the food not look good?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is this meat?",
+        "a": "yes",
+        "neg_q": "Is this not meat?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Would this typically be eaten for breakfast?",
+        "a": "no",
+        "neg_q": "Would this not typically be eaten for breakfast?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524377",
+        "q": "Is that bacon from a delicatessen?",
+        "a": "yes",
+        "neg_q": "Is that bacon not from a delicatessen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393306",
+        "q": "Is the man wearing formal clothes?",
+        "a": "no",
+        "neg_q": "Is the man not wearing formal clothes?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Is there a deodorant on the sink?",
+        "a": "no",
+        "neg_q": "Is there no deodorant on the sink?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Is there a full roll of toilet paper in the bathroom?",
+        "a": "yes",
+        "neg_q": "Is there no full roll of toilet paper in the bathroom?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Would someone be able to watch you change from the outside?",
+        "a": "yes",
+        "neg_q": "Would someone not be able to watch you change from the outside?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Does the shower have a glass door?",
+        "a": "no",
+        "neg_q": "Does the shower not have a glass door?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Is the towel rack silver?",
+        "a": "no",
+        "neg_q": "Is the towel rack not silver?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Is there a shower curtain?",
+        "a": "yes",
+        "neg_q": "Is there no shower curtain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262159",
+        "q": "Is the toilet lid down?",
+        "a": "yes",
+        "neg_q": "Is the toilet lid not down?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "92",
+        "q": "Does this cake look like it chocolate?",
+        "a": "yes",
+        "neg_q": "Does this cake not look like it is chocolate?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "94",
+        "q": "Is this a small town?",
+        "a": "yes",
+        "neg_q": "Is this not a small town?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393311",
+        "q": "Will these planes be used to transport people?",
+        "a": "no",
+        "neg_q": "Will these planes not be used to transport people?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524386",
+        "q": "Is the room carpeted?",
+        "a": "yes",
+        "neg_q": "Is the room not carpeted?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524386",
+        "q": "Is there a fireplace?",
+        "a": "no",
+        "neg_q": "Is there no fireplace?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524386",
+        "q": "Are stains on the floor?",
+        "a": "no",
+        "neg_q": "Are stains not on the floor?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524386",
+        "q": "Are these boys at home?",
+        "a": "no",
+        "neg_q": "Are these boys not at home?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524386",
+        "q": "Is this a 60's motif?",
+        "a": "no",
+        "neg_q": "Is this not a 60's motif?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393317",
+        "q": "Is the light green?",
+        "a": "yes",
+        "neg_q": "Is the light not green?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393317",
+        "q": "Is it raining?",
+        "a": "no",
+        "neg_q": "Is it not raining?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393317",
+        "q": "Is this woman crossing a street?",
+        "a": "yes",
+        "neg_q": "Is this woman not crossing a street?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393317",
+        "q": "Is this in the United States?",
+        "a": "yes",
+        "neg_q": "Is this not in the United States?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    }
+]

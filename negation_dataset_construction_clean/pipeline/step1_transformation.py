@@ -2,10 +2,24 @@ import json
 import config
 from utils import load_json, save_json, load_prompt, query_llm
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+
+def process_batch(prompt_text, batch_data, save_path, desc):
+    """單一 LLM 任務（給 thread 用）"""
+    print(f"Processing {desc}...")
+    response_str = query_llm(prompt_text, str(batch_data))
+    try:
+        response_json = json.loads(response_str)
+        save_json(response_json, save_path)
+        print(f"Saved {save_path.name}")
+    except json.JSONDecodeError:
+        print(f"Failed to decode JSON for {desc}")
+
 
 def run():
-    print("--- Step 1: Negation Transformation ---")
-    
+    print("--- Step 1: Negation Transformation (Multithread) ---")
+
     # Load Prompts
     prompts = {
         "ISARE": {
@@ -26,28 +40,48 @@ def run():
     NUM = int(os.getenv("TASK1NUM"))
     ITER = int(os.getenv("TASK1ITER"))
 
-    # Process Yes/No Questions
-    for x in range(ITER):
-        batch_data = yesno_content[NUM * x : NUM * (x + 1)]
-        for key, prompt_text in prompts["ISARE"].items():
-            print(f"Processing ISARE batch {x+1}, type {key}...")
-            response_str = query_llm(prompt_text, str(batch_data))
-            try:
-                response_json = json.loads(response_str)
-                filename = f"ISARE_{key}{NUM * x}{NUM * (x + 1)}.json"
-                save_json(response_json, config.ISARE_DIR / filename)
-            except json.JSONDecodeError:
-                print(f"Failed to decode JSON for batch {x}")
+    tasks = []
 
-    # Process WH Questions
-    for x in range(ITER):
-        batch_data = wh_content[NUM * x : NUM * (x + 1)]
-        for key, prompt_text in prompts["WH"].items():
-            print(f"Processing WH batch {x+1}, type {key}...")
-            response_str = query_llm(prompt_text, str(batch_data))
-            try:
-                response_json = json.loads(response_str)
+    # 建立 thread pool
+    # 👉 可依 API 限速調整，例如 4 / 8 / 16
+    with ThreadPoolExecutor(max_workers=8) as executor:
+
+        # ISARE
+        for x in range(ITER):
+            batch_data = yesno_content[NUM * x : NUM * (x + 1)]
+            for key, prompt_text in prompts["ISARE"].items():
+                filename = f"ISARE_{key}{NUM * x}{NUM * (x + 1)}.json"
+                save_path = config.ISARE_DIR / filename
+                desc = f"ISARE batch {x+1}, type {key}"
+
+                future = executor.submit(
+                    process_batch,
+                    prompt_text,
+                    batch_data,
+                    save_path,
+                    desc
+                )
+                tasks.append(future)
+
+        # WH
+        for x in range(ITER):
+            batch_data = wh_content[NUM * x : NUM * (x + 1)]
+            for key, prompt_text in prompts["WH"].items():
                 filename = f"WH_{key}{NUM * x}{NUM * (x + 1)}.json"
-                save_json(response_json, config.WH_DIR / filename)
-            except json.JSONDecodeError:
-                print(f"Failed to decode JSON for batch {x}")
+                save_path = config.WH_DIR / filename
+                desc = f"WH batch {x+1}, type {key}"
+
+                future = executor.submit(
+                    process_batch,
+                    prompt_text,
+                    batch_data,
+                    save_path,
+                    desc
+                )
+                tasks.append(future)
+
+        # 等所有 threads 完成（可抓例外）
+        for future in as_completed(tasks):
+            future.result()
+
+    print("=== All tasks completed ===")

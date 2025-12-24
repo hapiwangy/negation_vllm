@@ -1,0 +1,1096 @@
+[
+    {
+        "id": "30",
+        "q": "Are the flowers open?",
+        "a": "yes",
+        "neg_q": "Are the flowers lacking openness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "30",
+        "q": "Are all the flowers white?",
+        "a": "no",
+        "neg_q": "Are some of the flowers lacking whiteness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524320",
+        "q": "Is the man standing on both foot?",
+        "a": "no",
+        "neg_q": "Is the man failing to stand on both feet?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524320",
+        "q": "Was this picture likely taken recently?",
+        "a": "no",
+        "neg_q": "Is this picture free from recent capture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524320",
+        "q": "Do the gentleman's socks match his shoes and belt?",
+        "a": "no",
+        "neg_q": "Are the gentleman's socks different from his shoes and belt?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "240304",
+        "q": "Are the zebras facing the same direction?",
+        "a": "yes",
+        "neg_q": "Are the zebras facing different directions?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "34",
+        "q": "Is this a horse?",
+        "a": "no",
+        "neg_q": "Is this other than a horse?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393251",
+        "q": "Are they drinking wine at the child's party?",
+        "a": "yes",
+        "neg_q": "Are they refraining from drinking wine at the child's party?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393251",
+        "q": "Is the man wearing glasses?",
+        "a": "yes",
+        "neg_q": "Is the man devoid of glasses?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262180",
+        "q": "Is this a good dessert?",
+        "a": "yes",
+        "neg_q": "Is this dessert lacking goodness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524325",
+        "q": "Are those kites in the air?",
+        "a": "yes",
+        "neg_q": "Are those kites absent from the air?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "Is this a hot dog?",
+        "a": "yes",
+        "neg_q": "Is this other than a hot dog?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "Is there ketchup on the hot dog?",
+        "a": "no",
+        "neg_q": "Is there an absence of ketchup on the hot dog?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "Has this hot dog been grilled?",
+        "a": "no",
+        "neg_q": "Did this hot dog fail to be grilled?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "43697",
+        "q": "Have you tried a hot dog like this before?",
+        "a": "yes",
+        "neg_q": "Have you refrained from trying a hot dog like this before?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262184",
+        "q": "Is this a toy-sized truck?",
+        "a": "no",
+        "neg_q": "Is this other than a toy-sized truck?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131113",
+        "q": "Is there a carpet on the floor?",
+        "a": "yes",
+        "neg_q": "Is there a lack of carpet on the floor?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262187",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "neg_q": "Is this plane failing to land?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262187",
+        "q": "Is the plane taking off?",
+        "a": "no",
+        "neg_q": "Is the plane failing to take off?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131118",
+        "q": "Are these airliners?",
+        "a": "yes",
+        "neg_q": "Are these other than airliners?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131118",
+        "q": "Are this cargo planes?",
+        "a": "yes",
+        "neg_q": "Are these other than cargo planes?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262191",
+        "q": "Is this bear a normal size?",
+        "a": "no",
+        "neg_q": "Is this bear different from normal size?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "49",
+        "q": "Is there a flower arrangement on the lawn?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a flower arrangement on the lawn?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "49",
+        "q": "Are they playing polo?",
+        "a": "no",
+        "neg_q": "Are they refraining from playing polo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524338",
+        "q": "Is this man reading a cell phone screen?",
+        "a": "no",
+        "neg_q": "Is this man failing to read a cell phone screen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131126",
+        "q": "Is there a stop sign in the picture?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a stop sign in the picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131127",
+        "q": "Is the man unhappy?",
+        "a": "no",
+        "neg_q": "Is the man devoid of happiness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131127",
+        "q": "Are the men going to share the bananas?",
+        "a": "no",
+        "neg_q": "Are the men refusing to share the bananas?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131128",
+        "q": "Do the painted flowers match the real ones?",
+        "a": "no",
+        "neg_q": "Are the painted flowers different from the real ones?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262201",
+        "q": "Will the birds go into the water?",
+        "a": "no",
+        "neg_q": "Will the birds refrain from going into the water?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262201",
+        "q": "Is this bird afraid of the ledge?",
+        "a": "no",
+        "neg_q": "Is this bird devoid of fear of the ledge?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131133",
+        "q": "Are the mountains high?",
+        "a": "yes",
+        "neg_q": "Are the mountains lacking height?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262207",
+        "q": "Is there a person standing in front of the television?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a person standing in front of the television?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262207",
+        "q": "Is there enough room under the armchairs for a cat to hide?",
+        "a": "yes",
+        "neg_q": "Is there a lack of room under the armchairs for a cat to hide?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "64",
+        "q": "Are there numbers on the clock face?",
+        "a": "no",
+        "neg_q": "Is there a lack of numbers on the clock face?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "64",
+        "q": "Is there a big tree behind the clock?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a big tree behind the clock?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "458763",
+        "q": "Is this a wedding?",
+        "a": "no",
+        "neg_q": "Is this other than a wedding?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "567990",
+        "q": "Does the crust look burnt?",
+        "a": "yes",
+        "neg_q": "Is the crust lacking signs of burning?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "567990",
+        "q": "Does this pizza have a deep dish crust?",
+        "a": "yes",
+        "neg_q": "Is this pizza other than deep dish?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393286",
+        "q": "Is the banana freshly peeled?",
+        "a": "yes",
+        "neg_q": "Is the banana lacking a fresh peel?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393286",
+        "q": "Is the banana closed?",
+        "a": "no",
+        "neg_q": "Is the banana lacking closedness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "71",
+        "q": "Does this photo show train tracks?",
+        "a": "yes",
+        "neg_q": "Is there an absence of train tracks in this photo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "71",
+        "q": "Does this train work?",
+        "a": "yes",
+        "neg_q": "Is this train lacking working function?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "72",
+        "q": "Are the giraffes under the trees?",
+        "a": "yes",
+        "neg_q": "Are the giraffes absent from under the trees?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393228",
+        "q": "Are there 3 elephants?",
+        "a": "yes",
+        "neg_q": "Are there fewer than three elephants?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393228",
+        "q": "Are all of the elephants full grown?",
+        "a": "no",
+        "neg_q": "Are some of the elephants lacking full growth?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393228",
+        "q": "Are the elephants in the jungle?",
+        "a": "yes",
+        "neg_q": "Are the elephants absent from the jungle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393290",
+        "q": "Is the woman eating the pizza?",
+        "a": "no",
+        "neg_q": "Is the woman refraining from eating the pizza?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393291",
+        "q": "Are there any reflections in this picture?",
+        "a": "no",
+        "neg_q": "Is there an absence of reflections in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393292",
+        "q": "Is the water on?",
+        "a": "no",
+        "neg_q": "Is the water failing to be on?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    }
+]

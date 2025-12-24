@@ -1,0 +1,402 @@
+[
+    {
+        "id": "458752",
+        "q": "Is this man a professional baseball player?",
+        "neg_q": "Is this man other than a professional baseball player?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "524291",
+        "q": "Is the dog waiting?",
+        "neg_q": "Is the dog refraining from waiting?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393221",
+        "q": "Is the sky blue?",
+        "neg_q": "Is the sky devoid of blue?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393221",
+        "q": "Is there snow on the mountains?",
+        "neg_q": "Is there an absence of snow on the mountains?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393223",
+        "q": "Is the window open?",
+        "neg_q": "Is the window closed instead of open?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393223",
+        "q": "Is she brushing?",
+        "neg_q": "Is she refraining from brushing?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393224",
+        "q": "Is the man smiling?",
+        "neg_q": "Is the man devoid of a smile?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393224",
+        "q": "Does his tie pair well with his suit?",
+        "neg_q": "Does his tie fail to pair well with his suit?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393224",
+        "q": "Does the man look happy?",
+        "neg_q": "Does the man appear devoid of happiness?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393224",
+        "q": "Is this photo in color?",
+        "neg_q": "Is this photo devoid of color?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393224",
+        "q": "Is the man wearing a plain tie?",
+        "neg_q": "Is the man wearing a tie other than a plain one?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "524297",
+        "q": "Judging from the dress, was this taken in a Latin American country?",
+        "neg_q": "Judging from the dress, was this taken in a country other than a Latin American country?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "524297",
+        "q": "Are the men on the sidewalk?",
+        "neg_q": "Are the men absent from the sidewalk?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "524297",
+        "q": "Was this photo taken recently?",
+        "neg_q": "Was this photo taken long ago instead of recently?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393227",
+        "q": "Does the guy have a tattoo?",
+        "neg_q": "Does the guy lack a tattoo?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393227",
+        "q": "Is the man's visor providing his face enough protection?",
+        "neg_q": "Is the man's visor failing to provide his face enough protection?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131084",
+        "q": "Is the man riding on a dirt path?",
+        "neg_q": "Is the man riding on a surface other than a dirt path?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131074",
+        "q": "Are the walls done in a summery color?",
+        "neg_q": "Are the walls devoid of summery color?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131074",
+        "q": "Is the curtain patterned?",
+        "neg_q": "Is the curtain devoid of pattern?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131074",
+        "q": "Are the windows the same size?",
+        "neg_q": "Are some of the windows different in size?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393230",
+        "q": "Is there a shadow of a tree in the foreground?",
+        "neg_q": "Is there an absence of a shadow of a tree in the foreground?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393230",
+        "q": "Did someone forget his luggage in the snow?",
+        "neg_q": "Is there a lack of someone who forgot his luggage in the snow?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393230",
+        "q": "Is it daytime?",
+        "neg_q": "Is it night instead of daytime?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "393230",
+        "q": "Is the person wearing a hat?",
+        "neg_q": "Is the person lacking a hat?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131087",
+        "q": "Is the dog wearing a collar?",
+        "neg_q": "Is the dog lacking a collar?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131087",
+        "q": "Is it a clear day?",
+        "neg_q": "Is the day lacking clarity?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131087",
+        "q": "Is there a body of water here?",
+        "neg_q": "Is there an absence of a body of water here?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131075",
+        "q": "Is the light on?",
+        "neg_q": "Is the light off instead of on?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131075",
+        "q": "Is the room messy?",
+        "neg_q": "Is the room devoid of messiness?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131075",
+        "q": "Is this a TV screen?",
+        "neg_q": "Is this other than a TV screen?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131075",
+        "q": "Is there a laptop in the image?",
+        "neg_q": "Is there an absence of a laptop in the image?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "137045",
+        "q": "Is the animal a mammal?",
+        "neg_q": "Is the animal other than a mammal?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131093",
+        "q": "Are there rocks in the picture?",
+        "neg_q": "Is there a lack of rocks in the picture?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131093",
+        "q": "Has the sheep recently been shaved?",
+        "neg_q": "Has the sheep failed to be recently shaved?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131093",
+        "q": "Are there three sheep?",
+        "neg_q": "Are there fewer than three sheep?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "524311",
+        "q": "Is the man having a good time?",
+        "neg_q": "Is the man failing to have a good time?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Could this photo be from a zoo?",
+        "neg_q": "Could this photo be from a place other than a zoo?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are the animals eating?",
+        "neg_q": "Are the animals refraining from eating?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Is there a zebra?",
+        "neg_q": "Is there an absence of a zebra?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe eating the tree?",
+        "neg_q": "Is the giraffe refraining from eating the tree?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are both giraffes standing?",
+        "neg_q": "Are some of the giraffes lacking upright posture?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are they at a zoo?",
+        "neg_q": "Are they located somewhere other than a zoo?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are some of the trees dead?",
+        "neg_q": "Are all of the trees alive?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are any of the animals eating?",
+        "neg_q": "Is there an absence of animals that are eating?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe in the shade?",
+        "neg_q": "Is the giraffe deprived of shade?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Are these giraffes living free range?",
+        "neg_q": "Are these giraffes in an environment other than free range?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "25",
+        "q": "Is there a rock near the giraffe?",
+        "neg_q": "Is there an absence of a rock near the giraffe?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "262172",
+        "q": "Are they moving?",
+        "neg_q": "Are they refraining from moving?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    },
+    {
+        "id": "131101",
+        "q": "Is this man angry?",
+        "neg_q": "Is this man devoid of anger?",
+        "a": "no",
+        "neg_a": "yes",
+        "neg_type": "soft"
+    },
+    {
+        "id": "30",
+        "q": "Are there flowers in the vase?",
+        "neg_q": "Is there an absence of flowers in the vase?",
+        "a": "yes",
+        "neg_a": "no",
+        "neg_type": "soft"
+    }
+]

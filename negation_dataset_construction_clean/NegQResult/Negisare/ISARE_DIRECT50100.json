@@ -1,405 +1,5 @@
 [
     {
-        "id": "458752",
-        "q": "Is this man a professional baseball player?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is this man not a professional baseball player?",
-        "neg_a": "no"
-    },
-    {
-        "id": "524291",
-        "q": "Is the dog waiting?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is the dog not waiting?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393221",
-        "q": "Is the sky blue?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is the sky not blue?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393221",
-        "q": "Is there snow on the mountains?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Is there no snow on the mountains?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393223",
-        "q": "Is the window open?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is the window not open?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393223",
-        "q": "Is she brushing?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is she not brushing?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393224",
-        "q": "Is the man smiling?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Is the man not smiling?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393224",
-        "q": "Does his tie pair well with his suit?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Does his tie not pair well with his suit?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393224",
-        "q": "Does the man look happy?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Does the man not look happy?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393224",
-        "q": "Is this photo in color?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is this photo not in color?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393224",
-        "q": "Is the man wearing a plain tie?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Is the man not wearing a plain tie?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "524297",
-        "q": "Judging from the dress, was this taken in a Latin American country?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Judging from the dress, was this not taken in a Latin American country?",
-        "neg_a": "no"
-    },
-    {
-        "id": "524297",
-        "q": "Are the men on the sidewalk?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Are the men not on the sidewalk?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "524297",
-        "q": "Was this photo taken recently?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Was this photo not taken recently?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393227",
-        "q": "Does the guy have a tattoo?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Does the guy not have a tattoo?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393227",
-        "q": "Is the man's visor providing his face enough protection?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Is the man's visor not providing his face enough protection?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131084",
-        "q": "Is the man riding on a dirt path?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is the man not riding on a dirt path?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131074",
-        "q": "Are the walls done in a summery color?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Are the walls not done in a summery color?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131074",
-        "q": "Is the curtain patterned?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is the curtain not patterned?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131074",
-        "q": "Are the windows the same size?",
-        "a": "yes",
-        "type": "CO",
-        "neg_q": "Are the windows not the same size?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393230",
-        "q": "Is there a shadow of a tree in the foreground?",
-        "a": "no",
-        "type": "EX",
-        "neg_q": "Is there no shadow of a tree in the foreground?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393230",
-        "q": "Did someone forget his luggage in the snow?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Did someone not forget his luggage in the snow?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "393230",
-        "q": "Is it daytime?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is it not daytime?",
-        "neg_a": "no"
-    },
-    {
-        "id": "393230",
-        "q": "Is the person wearing a hat?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Is the person not wearing a hat?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131087",
-        "q": "Is the dog wearing a collar?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is the dog not wearing a collar?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131087",
-        "q": "Is it a clear day?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is it not a clear day?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131087",
-        "q": "Is there a body of water here?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Is there no body of water here?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131075",
-        "q": "Is the light on?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is the light not on?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131075",
-        "q": "Is the room messy?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is the room not messy?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131075",
-        "q": "Is this a TV screen?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is this not a TV screen?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131075",
-        "q": "Is there a laptop in the image?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Is there no laptop in the image?",
-        "neg_a": "no"
-    },
-    {
-        "id": "137045",
-        "q": "Is the animal a mammal?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Is the animal not a mammal?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131093",
-        "q": "Are there rocks in the picture?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Are there no rocks in the picture?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131093",
-        "q": "Has the sheep recently been shaved?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Has the sheep not recently been shaved?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "131093",
-        "q": "Are there three sheep?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Are there not three sheep?",
-        "neg_a": "no"
-    },
-    {
-        "id": "524311",
-        "q": "Is the man having a good time?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is the man not having a good time?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Could this photo be from a zoo?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Could this photo not be from a zoo?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Are the animals eating?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Are the animals not eating?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Is there a zebra?",
-        "a": "no",
-        "type": "EX",
-        "neg_q": "Is there no zebra?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "25",
-        "q": "Is the giraffe eating the tree?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Is the giraffe not eating the tree?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Are both giraffes standing?",
-        "a": "no",
-        "type": "AC",
-        "neg_q": "Are both giraffes not standing?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "25",
-        "q": "Are they at a zoo?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Are they not at a zoo?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Are some of the trees dead?",
-        "a": "yes",
-        "type": "AT",
-        "neg_q": "Are some of the trees not dead?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Are any of the animals eating?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Are any of the animals not eating?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Is the giraffe in the shade?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is the giraffe not in the shade?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "25",
-        "q": "Are these giraffes living free range?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Are these giraffes not living free range?",
-        "neg_a": "no"
-    },
-    {
-        "id": "25",
-        "q": "Is there a rock near the giraffe?",
-        "a": "no",
-        "type": "EX",
-        "neg_q": "Is there no rock near the giraffe?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "262172",
-        "q": "Are they moving?",
-        "a": "yes",
-        "type": "AC",
-        "neg_q": "Are they not moving?",
-        "neg_a": "no"
-    },
-    {
-        "id": "131101",
-        "q": "Is this man angry?",
-        "a": "no",
-        "type": "AT",
-        "neg_q": "Is this man not angry?",
-        "neg_a": "yes"
-    },
-    {
-        "id": "30",
-        "q": "Are there flowers in the vase?",
-        "a": "yes",
-        "type": "EX",
-        "neg_q": "Are there no flowers in the vase?",
-        "neg_a": "no"
-    },
-    {
         "id": "30",
         "q": "Are the flowers open?",
         "a": "yes",
@@ -443,7 +43,7 @@
         "id": "240304",
         "q": "Are the zebras facing the same direction?",
         "a": "yes",
-        "type": "CO",
+        "type": "AC",
         "neg_q": "Are the zebras not facing the same direction?",
         "neg_a": "no"
     },
@@ -507,7 +107,7 @@
         "id": "43697",
         "q": "Has this hot dog been grilled?",
         "a": "no",
-        "type": "AC",
+        "type": "AT",
         "neg_q": "Has this hot dog not been grilled?",
         "neg_a": "yes"
     },
@@ -564,7 +164,7 @@
         "q": "Are this cargo planes?",
         "a": "yes",
         "type": "AT",
-        "neg_q": "Are this cargo planes not?",
+        "neg_q": "Are these cargo planes not?",
         "neg_a": "no"
     },
     {
@@ -699,7 +299,7 @@
         "id": "567990",
         "q": "Does the crust look burnt?",
         "a": "yes",
-        "type": "AT",
+        "type": "AC",
         "neg_q": "Does the crust not look burnt?",
         "neg_a": "no"
     },
@@ -707,7 +307,7 @@
         "id": "567990",
         "q": "Does this pizza have a deep dish crust?",
         "a": "yes",
-        "type": "AT",
+        "type": "AC",
         "neg_q": "Does this pizza not have a deep dish crust?",
         "neg_a": "no"
     },

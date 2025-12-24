@@ -16,7 +16,7 @@ def run():
                 "a": element['a'],
                 "neg_q": element['neg_q'],
                 "options": {"a": "yes", "b": "no"},
-                'ca': element['neg_a']
+                'ca': "a" if element['neg_a'] == "yes" else "b"
             })
         save_json(result, config.MASK_DIR / f"FINAL_{file.name}")
 

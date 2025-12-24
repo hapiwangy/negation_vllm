@@ -1,0 +1,1104 @@
+[
+    {
+        "id": "458752",
+        "q": "Is this man a professional baseball player?",
+        "a": "yes",
+        "neg_q": "Is this man other than a professional baseball player?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524291",
+        "q": "Is the dog waiting?",
+        "a": "yes",
+        "neg_q": "Is the dog refraining from waiting?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393221",
+        "q": "Is the sky blue?",
+        "a": "yes",
+        "neg_q": "Is the sky devoid of blue?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393221",
+        "q": "Is there snow on the mountains?",
+        "a": "yes",
+        "neg_q": "Is there an absence of snow on the mountains?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393223",
+        "q": "Is the window open?",
+        "a": "yes",
+        "neg_q": "Is the window closed instead of open?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393223",
+        "q": "Is she brushing?",
+        "a": "yes",
+        "neg_q": "Is she refraining from brushing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393224",
+        "q": "Is the man smiling?",
+        "a": "no",
+        "neg_q": "Is the man devoid of a smile?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393224",
+        "q": "Does his tie pair well with his suit?",
+        "a": "no",
+        "neg_q": "Does his tie fail to pair well with his suit?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393224",
+        "q": "Does the man look happy?",
+        "a": "no",
+        "neg_q": "Does the man appear devoid of happiness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393224",
+        "q": "Is this photo in color?",
+        "a": "no",
+        "neg_q": "Is this photo devoid of color?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393224",
+        "q": "Is the man wearing a plain tie?",
+        "a": "no",
+        "neg_q": "Is the man wearing a tie other than a plain one?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524297",
+        "q": "Judging from the dress, was this taken in a Latin American country?",
+        "a": "yes",
+        "neg_q": "Judging from the dress, was this taken in a country other than a Latin American country?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524297",
+        "q": "Are the men on the sidewalk?",
+        "a": "no",
+        "neg_q": "Are the men absent from the sidewalk?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524297",
+        "q": "Was this photo taken recently?",
+        "a": "no",
+        "neg_q": "Was this photo taken long ago instead of recently?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393227",
+        "q": "Does the guy have a tattoo?",
+        "a": "yes",
+        "neg_q": "Does the guy lack a tattoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393227",
+        "q": "Is the man's visor providing his face enough protection?",
+        "a": "no",
+        "neg_q": "Is the man's visor failing to provide his face enough protection?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131084",
+        "q": "Is the man riding on a dirt path?",
+        "a": "yes",
+        "neg_q": "Is the man riding on a surface other than a dirt path?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131074",
+        "q": "Are the walls done in a summery color?",
+        "a": "yes",
+        "neg_q": "Are the walls devoid of summery color?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131074",
+        "q": "Is the curtain patterned?",
+        "a": "no",
+        "neg_q": "Is the curtain devoid of pattern?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131074",
+        "q": "Are the windows the same size?",
+        "a": "yes",
+        "neg_q": "Are some of the windows different in size?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "393230",
+        "q": "Is there a shadow of a tree in the foreground?",
+        "a": "no",
+        "neg_q": "Is there an absence of a shadow of a tree in the foreground?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393230",
+        "q": "Did someone forget his luggage in the snow?",
+        "a": "no",
+        "neg_q": "Is there a lack of someone who forgot his luggage in the snow?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393230",
+        "q": "Is it daytime?",
+        "a": "yes",
+        "neg_q": "Is it night instead of daytime?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "393230",
+        "q": "Is the person wearing a hat?",
+        "a": "no",
+        "neg_q": "Is the person lacking a hat?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131087",
+        "q": "Is the dog wearing a collar?",
+        "a": "yes",
+        "neg_q": "Is the dog lacking a collar?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131087",
+        "q": "Is it a clear day?",
+        "a": "yes",
+        "neg_q": "Is the day lacking clarity?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131087",
+        "q": "Is there a body of water here?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a body of water here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131075",
+        "q": "Is the light on?",
+        "a": "no",
+        "neg_q": "Is the light off instead of on?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131075",
+        "q": "Is the room messy?",
+        "a": "no",
+        "neg_q": "Is the room devoid of messiness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131075",
+        "q": "Is this a TV screen?",
+        "a": "yes",
+        "neg_q": "Is this other than a TV screen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131075",
+        "q": "Is there a laptop in the image?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a laptop in the image?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "137045",
+        "q": "Is the animal a mammal?",
+        "a": "yes",
+        "neg_q": "Is the animal other than a mammal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131093",
+        "q": "Are there rocks in the picture?",
+        "a": "yes",
+        "neg_q": "Is there a lack of rocks in the picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131093",
+        "q": "Has the sheep recently been shaved?",
+        "a": "no",
+        "neg_q": "Has the sheep failed to be recently shaved?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131093",
+        "q": "Are there three sheep?",
+        "a": "yes",
+        "neg_q": "Are there fewer than three sheep?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "524311",
+        "q": "Is the man having a good time?",
+        "a": "yes",
+        "neg_q": "Is the man failing to have a good time?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Could this photo be from a zoo?",
+        "a": "yes",
+        "neg_q": "Could this photo be from a place other than a zoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are the animals eating?",
+        "a": "yes",
+        "neg_q": "Are the animals refraining from eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Is there a zebra?",
+        "a": "no",
+        "neg_q": "Is there an absence of a zebra?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe eating the tree?",
+        "a": "yes",
+        "neg_q": "Is the giraffe refraining from eating the tree?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are both giraffes standing?",
+        "a": "no",
+        "neg_q": "Are some of the giraffes lacking upright posture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are they at a zoo?",
+        "a": "yes",
+        "neg_q": "Are they located somewhere other than a zoo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are some of the trees dead?",
+        "a": "yes",
+        "neg_q": "Are all of the trees alive?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are any of the animals eating?",
+        "a": "yes",
+        "neg_q": "Is there an absence of animals that are eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Is the giraffe in the shade?",
+        "a": "no",
+        "neg_q": "Is the giraffe deprived of shade?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Are these giraffes living free range?",
+        "a": "yes",
+        "neg_q": "Are these giraffes in an environment other than free range?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "25",
+        "q": "Is there a rock near the giraffe?",
+        "a": "no",
+        "neg_q": "Is there an absence of a rock near the giraffe?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "262172",
+        "q": "Are they moving?",
+        "a": "yes",
+        "neg_q": "Are they refraining from moving?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "131101",
+        "q": "Is this man angry?",
+        "a": "no",
+        "neg_q": "Is this man devoid of anger?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+        ]
+    },
+    {
+        "id": "30",
+        "q": "Are there flowers in the vase?",
+        "a": "yes",
+        "neg_q": "Is there an absence of flowers in the vase?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b",
+        "mask": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+        ]
+    }
+]

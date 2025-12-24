@@ -1,0 +1,352 @@
+[
+    {
+        "id": 458763,
+        "q": "What color is the middle vase?",
+        "neg_q": "What is not the color of the middle vase?",
+        "a": "blue",
+        "type": "AT"
+    },
+    {
+        "id": 458763,
+        "q": "What is the table made of?",
+        "neg_q": "What is the table not made of?",
+        "a": "wood",
+        "type": "AT"
+    },
+    {
+        "id": 458763,
+        "q": "What kind of trees are on the table?",
+        "neg_q": "not_applicable",
+        "a": "christmas",
+        "type": "not_applicable"
+    },
+    {
+        "id": 567990,
+        "q": "What is the green stuff on this pizza?",
+        "neg_q": "not_applicable",
+        "a": "spinach",
+        "type": "not_applicable"
+    },
+    {
+        "id": 393286,
+        "q": "What is the orange thing?",
+        "neg_q": "not_applicable",
+        "a": "bag",
+        "type": "not_applicable"
+    },
+    {
+        "id": 72,
+        "q": "What is the giraffe eating?",
+        "neg_q": "What is the giraffe not eating?",
+        "a": "leaves",
+        "type": "AC"
+    },
+    {
+        "id": 393290,
+        "q": "What is on the woman's neck?",
+        "neg_q": "not_applicable",
+        "a": "necklace",
+        "type": "not_applicable"
+    },
+    {
+        "id": 393291,
+        "q": "Where is the sink located?",
+        "neg_q": "Where is there no sink located?",
+        "a": "bathroom",
+        "type": "EX"
+    },
+    {
+        "id": 393291,
+        "q": "Where is the soap?",
+        "neg_q": "Where is there no soap?",
+        "a": "shower",
+        "type": "EX"
+    },
+    {
+        "id": 393291,
+        "q": "What color is the window frame?",
+        "neg_q": "What is not the color of the window frame?",
+        "a": "white",
+        "type": "AT"
+    },
+    {
+        "id": 393291,
+        "q": "What item is folded up and sitting on the edge of the shower stall?",
+        "neg_q": "not_applicable",
+        "a": "towel",
+        "type": "not_applicable"
+    },
+    {
+        "id": 393291,
+        "q": "What pattern is on the shower curtain?",
+        "neg_q": "What is not the pattern on the shower curtain?",
+        "a": "solid",
+        "type": "AT"
+    },
+    {
+        "id": 393291,
+        "q": "What are the colors of the countertop?",
+        "neg_q": "What are not the colors of the countertop?",
+        "a": "brown",
+        "type": "AT"
+    },
+    {
+        "id": 262221,
+        "q": "What is the person on the right called?",
+        "neg_q": "not_applicable",
+        "a": "referee",
+        "type": "not_applicable"
+    },
+    {
+        "id": 262221,
+        "q": "Whose logo is on the official's chair?",
+        "neg_q": "not_applicable",
+        "a": "wilson",
+        "type": "not_applicable"
+    },
+    {
+        "id": 81,
+        "q": "What is the last letter over the plane?",
+        "neg_q": "not_applicable",
+        "a": "e",
+        "type": "not_applicable"
+    },
+    {
+        "id": 86,
+        "q": "What is this person wearing on head?",
+        "neg_q": "What is this person not wearing on head?",
+        "a": "hat",
+        "type": "AC"
+    },
+    {
+        "id": 524375,
+        "q": "What are the animals doing?",
+        "neg_q": "What are the animals not doing?",
+        "a": "grazing",
+        "type": "AC"
+    },
+    {
+        "id": 524375,
+        "q": "What breed of livestock is shown?",
+        "neg_q": "not_applicable",
+        "a": "sheep",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524375,
+        "q": "What game would you play when you saw this as a child?",
+        "neg_q": "not_applicable",
+        "a": "tag",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524375,
+        "q": "Where is the human?",
+        "neg_q": "Where is there no human?",
+        "a": "on top of hill",
+        "type": "EX"
+    },
+    {
+        "id": 131160,
+        "q": "What color is the sign?",
+        "neg_q": "What is not the color of the sign?",
+        "a": "white",
+        "type": "AT"
+    },
+    {
+        "id": 131160,
+        "q": "What language is the sign written in?",
+        "neg_q": "not_applicable",
+        "a": "spanish",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "How has the cheese been prepared?",
+        "neg_q": "not_applicable",
+        "a": "melted",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What kind of food is shown?",
+        "neg_q": "not_applicable",
+        "a": "hot dog",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is the cutting board used for in this scene?",
+        "neg_q": "not_applicable",
+        "a": "plate",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What kind of sauce is in the largest ramekin?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What type of food is shown?",
+        "neg_q": "not_applicable",
+        "a": "hot dog",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is the topping on the hot dog?",
+        "neg_q": "not_applicable",
+        "a": "peppers",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What topping is on the hot dog?",
+        "neg_q": "not_applicable",
+        "a": "onions",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is in the small container?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What are the components of this dish?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What kind of toppings are on the hot dogs?",
+        "neg_q": "not_applicable",
+        "a": "onions",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "How delicious does this look?",
+        "neg_q": "not_applicable",
+        "a": "very",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What two vegetables are in the white bowl?",
+        "neg_q": "not_applicable",
+        "a": "none",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What type of filling is in the dish on the bottom left?",
+        "neg_q": "not_applicable",
+        "a": "mayonnaise",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What color is the tray?",
+        "neg_q": "What is not the color of the tray?",
+        "a": "white",
+        "type": "AT"
+    },
+    {
+        "id": 524377,
+        "q": "What is the yellow stuff in a bowl?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is the hot dog sitting on top of?",
+        "neg_q": "not_applicable",
+        "a": "bun",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What are the orange things?",
+        "neg_q": "not_applicable",
+        "a": "sweet potato fries",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is in the cup?",
+        "neg_q": "not_applicable",
+        "a": "mayo",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is the orange root called?",
+        "neg_q": "not_applicable",
+        "a": "sweet potato",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is the blackened meat on the bread?",
+        "neg_q": "not_applicable",
+        "a": "hot dog",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What kind of meat is this?",
+        "neg_q": "not_applicable",
+        "a": "hot dog",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is on the sandwich?",
+        "neg_q": "not_applicable",
+        "a": "hot dog",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What animal is on the plate?",
+        "neg_q": "not_applicable",
+        "a": "pig",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What is on the hotdog?",
+        "neg_q": "not_applicable",
+        "a": "onions",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What two vegetables can be seen on the pizza?",
+        "neg_q": "not_applicable",
+        "a": "none",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What condiment is on the potatoes?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    },
+    {
+        "id": 524377,
+        "q": "What sauces are shown?",
+        "neg_q": "not_applicable",
+        "a": "butter",
+        "type": "not_applicable"
+    }
+]

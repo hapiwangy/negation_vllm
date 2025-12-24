@@ -1,0 +1,502 @@
+[
+    {
+        "neg_q": "Is it not the case that this man is no professional baseball player?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no dog waiting?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no blue in the sky?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no snow on the mountains?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no open window?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not the case that she fails to brush?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no smile on the man?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no good pairing between his tie and his suit?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 8
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the man shows no happiness?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Could it not be said that this photo contains no color?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no plain tie on the man?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Does it not appear that, judging from the dress, there is no evidence against this being taken in a Latin American country?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 8,
+            "D": 1,
+            "E": 10
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there are no men on the sidewalk?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that this photo shows no signs of being taken recently?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Is it not true that the guy has no tattoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the man's visor is without sufficient protection for his face?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 10,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that the man is riding without being on pavement?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 12,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the walls are without drab tones and appear summery?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 12,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Is it not true that the curtain has no pattern?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no difference in size between the windows?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 6
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no shadow of a tree in the foreground?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there was no luggage forgotten in the snow?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Would it not seem that the scene is without darkness?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the person is wearing no hat?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not true that the dog has no collar?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Does it not appear that the day is without haze?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no absence of a body of water here?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that there is no light on?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the room shows no mess?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no doubt this is a TV screen?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 6
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no lack of a laptop in the image?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no absence of mammalian features on the animal?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there is no lack of rocks in the picture?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 6
+        }
+    },
+    {
+        "neg_q": "Is it not true that the sheep shows no recent shearing?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there are no fewer than three sheep?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no lack of enjoyment on the man's face?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 7
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no evidence against this photo being from a zoo?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 8
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there is no lack of animals eating?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not true that there is no zebra?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that there is no doubt that the giraffe is eating the tree?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 8
+        }
+    },
+    {
+        "neg_q": "Could it not be said that the scene is without both giraffes standing?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 10,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no absence of a zoo setting?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 5
+        }
+    },
+    {
+        "neg_q": "Would it not be the case that some of the trees are no longer living?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 9,
+            "D": 1,
+            "E": 2
+        }
+    },
+    {
+        "neg_q": "Is it not the case that there is no absence of animals eating?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Is it not true that the giraffe is in no shade?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Would it not seem that these giraffes are without enclosure?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 7,
+            "D": 0,
+            "E": 0
+        }
+    },
+    {
+        "neg_q": "Could it not be said that there is no rock near the giraffe?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5,
+            "D": 1,
+            "E": 4
+        }
+    },
+    {
+        "neg_q": "Does it not appear that there is no stillness among them?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4,
+            "D": 1,
+            "E": 3
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the man shows no anger?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 1
+        }
+    },
+    {
+        "neg_q": "Is it not the case that the vase is not without flowers?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1,
+            "E": 2
+        }
+    }
+]

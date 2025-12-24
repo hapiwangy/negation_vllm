@@ -1,0 +1,47 @@
+2025-12-22 11:49:56,784 - INFO - start of the process
+2025-12-22 11:49:56,784 - INFO - Starting Pipeline
+2025-12-22 11:49:56,784 - INFO - Starting process Transformation
+2025-12-22 11:50:58,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:51:11,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:51:25,237 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:51:30,281 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:51:38,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:09,819 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:25,862 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:26,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:41,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:45,119 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:50,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:52,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:52:57,370 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:53:45,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:53:51,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:53:51,344 - INFO - successful! Transformation finished in 234.559s
+
+2025-12-22 11:53:51,344 - INFO - Starting process Answer Construction
+2025-12-22 11:53:51,535 - INFO - successful! Answer Construction finished in 0.191s
+
+2025-12-22 11:53:51,535 - INFO - Starting process Mask Generation
+2025-12-22 11:55:00,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:55:01,263 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:55:11,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:55:42,395 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:55:53,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:02,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:05,844 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:11,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:26,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:39,783 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:44,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:50,052 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-22 11:56:50,055 - INFO - successful! Mask Generation finished in 178.520s
+
+2025-12-22 11:56:50,055 - INFO - Starting process Dataset Compilation
+2025-12-22 11:56:50,217 - INFO - successful! Dataset Compilation finished in 0.162s
+
+2025-12-22 11:56:50,217 - INFO - --- Summary ---
+2025-12-22 11:56:50,217 - INFO - Transformation: 234.559s
+2025-12-22 11:56:50,217 - INFO - Answer Construction: 0.191s
+2025-12-22 11:56:50,217 - INFO - Mask Generation: 178.520s
+2025-12-22 11:56:50,219 - INFO - Dataset Compilation: 0.162s
+2025-12-22 11:56:50,219 - INFO - TOTAL: 413.434s

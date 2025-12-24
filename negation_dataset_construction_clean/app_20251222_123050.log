@@ -1,0 +1,12 @@
+2025-12-22 12:30:50,895 - INFO - start of the process
+2025-12-22 12:30:50,895 - INFO - Starting Pipeline
+2025-12-22 12:30:50,895 - INFO - Starting process Answer Construction
+2025-12-22 12:30:50,911 - INFO - successful! Answer Construction finished in 0.015s
+
+2025-12-22 12:30:50,911 - INFO - Starting process Dataset Compilation
+2025-12-22 12:30:51,073 - INFO - successful! Dataset Compilation finished in 0.162s
+
+2025-12-22 12:30:51,073 - INFO - --- Summary ---
+2025-12-22 12:30:51,073 - INFO - Answer Construction: 0.015s
+2025-12-22 12:30:51,073 - INFO - Dataset Compilation: 0.162s
+2025-12-22 12:30:51,073 - INFO - TOTAL: 0.178s

@@ -1,0 +1,552 @@
+[
+    {
+        "id": "393292",
+        "q": "Is this photo outdoors?",
+        "a": "yes",
+        "neg_q": "Is it not the case that there is no outdoor scene in this photo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "78",
+        "q": "Are the clock and owl made in the same artistic fashion?",
+        "a": "no",
+        "neg_q": "Is it not true that the clock and the owl are without the same artistic style?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "78",
+        "q": "Is that owl a candle?",
+        "a": "yes",
+        "neg_q": "Would it not seem that the owl is no candle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "81",
+        "q": "Does this planes tail have 4 colors?",
+        "a": "no",
+        "neg_q": "Would it not be the case that this plane's tail is without four colors?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "neg_q": "Could it not be said that there is no landing happening for this plane?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane taking off?",
+        "a": "no",
+        "neg_q": "Does it not appear that there is no takeoff happening for this plane?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Are these wings strong?",
+        "a": "yes",
+        "neg_q": "Is it not the case that there is no lack of strength in these wings?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "86",
+        "q": "Is that a bicycle?",
+        "a": "yes",
+        "neg_q": "Is it not true that there is no absence of a bicycle there?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a cow farm?",
+        "a": "yes",
+        "neg_q": "Would it not seem that there is no lack of cows here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a prairie?",
+        "a": "yes",
+        "neg_q": "Would it not be the case that there is no lack of open grassland here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is there a village in the background?",
+        "a": "no",
+        "neg_q": "Could it not be said that there is no village in the background?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "131160",
+        "q": "Would you be able to find a mosque in this city?",
+        "a": "yes",
+        "neg_q": "Does it not appear that there is no lack of a mosque in this city?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is there ketchup?",
+        "a": "no",
+        "neg_q": "Is it not the case that there is no ketchup in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is the hotdog well seasoned?",
+        "a": "yes",
+        "neg_q": "Is it not true that the hotdog is no stranger to seasoning?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is this a healthy meal?",
+        "a": "no",
+        "neg_q": "Would it not seem that this meal is without healthy qualities?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a spoon in this photo?",
+        "a": "no",
+        "neg_q": "Would it not be the case that there is no spoon in this photo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is this breakfast?",
+        "a": "no",
+        "neg_q": "Could it not be said that this is no breakfast meal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a drink in this picture?",
+        "a": "no",
+        "neg_q": "Does it not appear that there is no drink in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Do these hot dogs look like they taste good?",
+        "a": "yes",
+        "neg_q": "Is it not the case that these hot dogs give no impression of tasting bad?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Are those tomatoes on the sandwich?",
+        "a": "no",
+        "neg_q": "Is it not true that there are no tomatoes on the sandwich?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Are the fries plain?",
+        "a": "no",
+        "neg_q": "Would it not seem that there is no plainness to the fries?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Does this breakfast dish primarily carbohydrates?",
+        "a": "yes",
+        "neg_q": "Would it not be the case that there is no lack of carbohydrates in this dish?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Has someone started eating?",
+        "a": "no",
+        "neg_q": "Could it not be said that no one has started eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Would this be good for dessert?",
+        "a": "no",
+        "neg_q": "Does it not appear that this would be no good for dessert?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a butter plate on the table?",
+        "a": "yes",
+        "neg_q": "Is it not the case that there is no lack of a butter plate on the table?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Does this have lettuce?",
+        "a": "no",
+        "neg_q": "Is it not true that there is no lettuce here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Does the food look good?",
+        "a": "yes",
+        "neg_q": "Would it not seem that there is no lack of appeal in the food?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is this meat?",
+        "a": "yes",
+        "neg_q": "Would it not be the case that there is no doubt this is meat?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Would this typically be eaten for breakfast?",
+        "a": "no",
+        "neg_q": "Could it not be said that this would fail to be eaten as a typical breakfast?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is that bacon from a delicatessen?",
+        "a": "yes",
+        "neg_q": "Does it not appear that there is no lack of delicatessen qualities in that bacon?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393306",
+        "q": "Is the man wearing formal clothes?",
+        "a": "no",
+        "neg_q": "Is it not the case that the man is without formal clothes?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a deodorant on the sink?",
+        "a": "no",
+        "neg_q": "Is it not true that there is no deodorant on the sink?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a full roll of toilet paper in the bathroom?",
+        "a": "yes",
+        "neg_q": "Would it not seem that there is no lack of a full toilet-paper roll in the bathroom?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Would someone be able to watch you change from the outside?",
+        "a": "yes",
+        "neg_q": "Would it not be the case that there is no prevention of someone watching you change from the outside?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Does the shower have a glass door?",
+        "a": "no",
+        "neg_q": "Could it not be said that the shower is without a glass door?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is the towel rack silver?",
+        "a": "no",
+        "neg_q": "Does it not appear that the towel rack is without silver coloring?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a shower curtain?",
+        "a": "yes",
+        "neg_q": "Is it not the case that there is no lack of a shower curtain here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Is the toilet lid down?",
+        "a": "yes",
+        "neg_q": "Is it not true that there is no absence of the toilet lid being down?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "92",
+        "q": "Does this cake look like it chocolate?",
+        "a": "yes",
+        "neg_q": "Would it not seem that there is no lack of chocolate in the appearance of this cake?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "94",
+        "q": "Is this a small town?",
+        "a": "yes",
+        "neg_q": "Would it not be the case that there is no lack of small-town features here?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393311",
+        "q": "Will these planes be used to transport people?",
+        "a": "no",
+        "neg_q": "Could it not be said that these planes fail to be used to transport people?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Is the room carpeted?",
+        "a": "yes",
+        "neg_q": "Does it not appear that there is no lack of carpeting in the room?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524386",
+        "q": "Is there a fireplace?",
+        "a": "no",
+        "neg_q": "Is it not the case that there is no fireplace?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Are stains on the floor?",
+        "a": "no",
+        "neg_q": "Is it not true that there are no stains on the floor?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Are these boys at home?",
+        "a": "no",
+        "neg_q": "Would it not seem that these boys are without being at home?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Is this a 60's motif?",
+        "a": "no",
+        "neg_q": "Would it not be the case that this is without a 60's motif?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "393317",
+        "q": "Is the light green?",
+        "a": "yes",
+        "neg_q": "Could it not be said that there is no absence of green in the light?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393317",
+        "q": "Is it raining?",
+        "a": "no",
+        "neg_q": "Does it not appear that it is without rain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "393317",
+        "q": "Is this woman crossing a street?",
+        "a": "yes",
+        "neg_q": "Is it not the case that there is no lack of the woman crossing the street?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393317",
+        "q": "Is this in the United States?",
+        "a": "yes",
+        "neg_q": "Is it not true that there is no absence of US identifiers in this scene?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    }
+]

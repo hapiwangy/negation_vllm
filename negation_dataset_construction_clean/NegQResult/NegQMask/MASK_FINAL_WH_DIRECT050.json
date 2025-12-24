@@ -1,0 +1,266 @@
+[
+    {
+        "neg_q": "What is this photo not taken looking through?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "What position is this man not playing?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What color is the players shirt not?",
+        "part_lengths": {
+            "A": 6,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What color is the snow not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is the person not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What color is the persons headwear not?",
+        "part_lengths": {
+            "A": 6,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is not in the person's hand?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What color is the toothbrush not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is the child not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is the business man not doing in the picture?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What colors are not shown in this picture?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What is this man not riding on?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "What color is his hat not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What color is the jacket not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is the man not riding on?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "What is this person not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is the man not doing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What color is the sky not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is the person not wearing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What color is his coat not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is she not holding?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What is the dog not riding on?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "What is the dog not riding on?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 2
+        }
+    },
+    {
+        "neg_q": "What does the green light, on the TV, not indicate?",
+        "part_lengths": {
+            "A": 8,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "How big is the TV not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What color is the bear not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    },
+    {
+        "neg_q": "What is the man not playing?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What does the man not have on his face?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 4
+        }
+    },
+    {
+        "neg_q": "What is not in front of the giraffes?",
+        "part_lengths": {
+            "A": 2,
+            "B": 1,
+            "C": 5
+        }
+    },
+    {
+        "neg_q": "What do these giraffes not have in common?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 3
+        }
+    },
+    {
+        "neg_q": "Where is there no giraffe?",
+        "part_lengths": {
+            "A": 3,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "How is the man not sitting?",
+        "part_lengths": {
+            "A": 4,
+            "B": 1,
+            "C": 1
+        }
+    },
+    {
+        "neg_q": "What color are the leaves not?",
+        "part_lengths": {
+            "A": 5,
+            "B": 1,
+            "C": 0
+        }
+    }
+]

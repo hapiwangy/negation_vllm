@@ -1,0 +1,552 @@
+[
+    {
+        "id": "393292",
+        "q": "Is this photo outdoors?",
+        "a": "yes",
+        "neg_q": "Is this photo lacking an outdoor setting?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "78",
+        "q": "Are the clock and owl made in the same artistic fashion?",
+        "a": "no",
+        "neg_q": "Are the clock and owl made in different artistic fashions?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "78",
+        "q": "Is that owl a candle?",
+        "a": "yes",
+        "neg_q": "Is that owl different from a candle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "81",
+        "q": "Does this planes tail have 4 colors?",
+        "a": "no",
+        "neg_q": "Does this plane's tail have a number of colors other than four?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane landing?",
+        "a": "no",
+        "neg_q": "Is this plane avoiding landing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Is this plane taking off?",
+        "a": "no",
+        "neg_q": "Is this plane refraining from taking off?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "81",
+        "q": "Are these wings strong?",
+        "a": "yes",
+        "neg_q": "Are these wings lacking strength?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "86",
+        "q": "Is that a bicycle?",
+        "a": "yes",
+        "neg_q": "Is that different from a bicycle?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a cow farm?",
+        "a": "yes",
+        "neg_q": "Is this different from a cow farm?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is this a prairie?",
+        "a": "yes",
+        "neg_q": "Is this different from a prairie?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524375",
+        "q": "Is there a village in the background?",
+        "a": "no",
+        "neg_q": "Is there a lack of a village in the background?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "131160",
+        "q": "Would you be able to find a mosque in this city?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a mosque in this city?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is there ketchup?",
+        "a": "no",
+        "neg_q": "Is there a lack of ketchup?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is the hotdog well seasoned?",
+        "a": "yes",
+        "neg_q": "Is the hotdog lacking seasoning?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is this a healthy meal?",
+        "a": "no",
+        "neg_q": "Is this meal lacking in healthiness?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a spoon in this photo?",
+        "a": "no",
+        "neg_q": "Is there an absence of a spoon in this photo?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is this breakfast?",
+        "a": "no",
+        "neg_q": "Is this other than breakfast?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a drink in this picture?",
+        "a": "no",
+        "neg_q": "Is there an absence of a drink in this picture?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Do these hot dogs look like they taste good?",
+        "a": "yes",
+        "neg_q": "Do these hot dogs look lacking in taste appeal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Are those tomatoes on the sandwich?",
+        "a": "no",
+        "neg_q": "Are those tomatoes absent from the sandwich?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Are the fries plain?",
+        "a": "no",
+        "neg_q": "Are the fries seasoned rather than plain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Does this breakfast dish primarily carbohydrates?",
+        "a": "yes",
+        "neg_q": "Is this breakfast dish lacking primary carbohydrates?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Has someone started eating?",
+        "a": "no",
+        "neg_q": "Is someone refraining from eating?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Would this be good for dessert?",
+        "a": "no",
+        "neg_q": "Would this be inappropriate for dessert?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is there a butter plate on the table?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a butter plate on the table?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Does this have lettuce?",
+        "a": "no",
+        "neg_q": "Is lettuce absent from this?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Does the food look good?",
+        "a": "yes",
+        "neg_q": "Does the food look lacking in appeal?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Is this meat?",
+        "a": "yes",
+        "neg_q": "Is this different from meat?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524377",
+        "q": "Would this typically be eaten for breakfast?",
+        "a": "no",
+        "neg_q": "Would this typically be eaten at times other than breakfast?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524377",
+        "q": "Is that bacon from a delicatessen?",
+        "a": "yes",
+        "neg_q": "Is that bacon other than from a delicatessen?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393306",
+        "q": "Is the man wearing formal clothes?",
+        "a": "no",
+        "neg_q": "Is the man lacking formal clothing?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a deodorant on the sink?",
+        "a": "no",
+        "neg_q": "Is deodorant absent from the sink?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a full roll of toilet paper in the bathroom?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a full roll of toilet paper in the bathroom?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Would someone be able to watch you change from the outside?",
+        "a": "yes",
+        "neg_q": "Would someone be unable to watch you change from the outside?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Does the shower have a glass door?",
+        "a": "no",
+        "neg_q": "Is the shower lacking a glass door?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is the towel rack silver?",
+        "a": "no",
+        "neg_q": "Is the towel rack other than silver?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "262159",
+        "q": "Is there a shower curtain?",
+        "a": "yes",
+        "neg_q": "Is there an absence of a shower curtain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "262159",
+        "q": "Is the toilet lid down?",
+        "a": "yes",
+        "neg_q": "Is the toilet lid up?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "92",
+        "q": "Does this cake look like it chocolate?",
+        "a": "yes",
+        "neg_q": "Does this cake lack a chocolate appearance?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "94",
+        "q": "Is this a small town?",
+        "a": "yes",
+        "neg_q": "Is this different from a small town?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393311",
+        "q": "Will these planes be used to transport people?",
+        "a": "no",
+        "neg_q": "Will these planes refrain from transporting people?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Is the room carpeted?",
+        "a": "yes",
+        "neg_q": "Is the room lacking carpeting?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "524386",
+        "q": "Is there a fireplace?",
+        "a": "no",
+        "neg_q": "Is there an absence of a fireplace?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Are stains on the floor?",
+        "a": "no",
+        "neg_q": "Are stains absent from the floor?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Are these boys at home?",
+        "a": "no",
+        "neg_q": "Are these boys away from home?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "524386",
+        "q": "Is this a 60's motif?",
+        "a": "no",
+        "neg_q": "Is this other than a 60s motif?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "393317",
+        "q": "Is the light green?",
+        "a": "yes",
+        "neg_q": "Is the light other than green?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393317",
+        "q": "Is it raining?",
+        "a": "no",
+        "neg_q": "Is there an absence of rain?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "a"
+    },
+    {
+        "id": "393317",
+        "q": "Is this woman crossing a street?",
+        "a": "yes",
+        "neg_q": "Is this woman refraining from crossing the street?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    },
+    {
+        "id": "393317",
+        "q": "Is this in the United States?",
+        "a": "yes",
+        "neg_q": "Is this location other than the United States?",
+        "options": {
+            "a": "yes",
+            "b": "no"
+        },
+        "ca": "b"
+    }
+]
