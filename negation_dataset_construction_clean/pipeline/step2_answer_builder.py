@@ -2,6 +2,7 @@ import config
 from utils import load_json, save_json
 
 def run():
+    answer_cal = {"a":0, "b":0}
     print("--- Step 2: Answer Construction ---")
     
     # 1. Process ISARE files
@@ -9,15 +10,24 @@ def run():
     for file in isare_files:
         data = load_json(file)
         result = []
-        for element in data:
-            result.append({
+        for element in data:            
+            if answer_cal["a"] < answer_cal["b"]: 
+                answer_cal["a"] += 1
+                correct_answer = "a" if element['neg_a'] == "yes" else "b"
+                options = {"a": "yes", "b": "no"}
+            else:
+                answer_cal["b"] += 1
+                correct_answer = "b" if element['neg_a'] == "yes" else "a"
+                options = {"a": "no", "b": "yes"}    
+            new_element = {
                 "id": element['id'],
                 "q": element['q'],
                 "a": element['a'],
                 "neg_q": element['neg_q'],
-                "options": {"a": "yes", "b": "no"},
-                'ca': "a" if element['neg_a'] == "yes" else "b"
-            })
+                "options": options,
+                'ca': correct_answer
+            }
+            result.append(new_element)
         save_json(result, config.MASK_DIR / f"FINAL_{file.name}")
 
     # 2. Process WH files
@@ -66,13 +76,25 @@ def run():
             ans_entry = next((item for item in whanswer if item["q"] == element["q"]), None)
             
             if ans_entry:
-                result.append({
+                if answer_cal["a"] < answer_cal["b"]: 
+                    answer_cal["a"] += 1
+                    # since the new answer is also b, so that we reverse the options
+                    correct_answer = "a" 
+                    options = {"a": ans_entry["options"]["b"], "b": ans_entry["options"]["a"]}
+                else:
+                    answer_cal["b"] += 1
+                    correct_answer = "b" 
+                    options = ans_entry["options"]
+
+                new_element = {
                     "id": str(element['id']),
                     "q": element["q"],
                     "a": element["a"],
                     "neg_q": element["neg_q"],
-                    "options": ans_entry["options"],
-                    "ca": ans_entry['ca']
-                })
+                    "options": options,
+                    "ca": correct_answer
+                } 
+                result.append(new_element)
 
         save_json(result, config.MASK_DIR / f"FINAL_{wf.name}")
+    print(answer_cal)

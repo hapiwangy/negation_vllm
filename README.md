@@ -11,7 +11,7 @@
 
 
 ## to do 
-- modify the dataset_construction to make sure the imageid can be mapped correctly
+- modify the dataset_construction to make sure the imageid can be mapped correctly (later to do this)
     - the easest way is to adding the .json files under the directory which named under the dataset, and adding infos when creating the cleaneddata
         - e.g.: 
         - VQA
@@ -20,4 +20,5 @@
             - wh_content.json
         - dataset2 ... 
 - balanced the correct answer label when constructing the dataset
+- creating data with the modified wh- (removed the not_applicable condition)
 - check the data in different datasets to improve the diversity in our VQA dataset
