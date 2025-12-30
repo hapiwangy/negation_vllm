@@ -15,6 +15,9 @@ def process_batch(prompt_text, batch_data, save_path, desc):
         print(f"Saved {save_path.name}")
     except json.JSONDecodeError:
         print(f"Failed to decode JSON for {desc}")
+        # save the org content to the txt files for future parsing
+        with open(save_path, "w+", encoding="utf-8") as fp:
+            fp.write(response_str)
 
 
 def run():
@@ -52,6 +55,7 @@ def run():
             for key, prompt_text in prompts["ISARE"].items():
                 filename = f"ISARE_{key}{NUM * x}{NUM * (x + 1)}.json"
                 save_path = config.ISARE_DIR / filename
+                # desc = (x + 1, key)
                 desc = f"ISARE batch {x+1}, type {key}"
 
                 future = executor.submit(
