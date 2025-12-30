@@ -1,58 +1,60 @@
 You are an expert for Negation-based Visual Question Answering (NegVQA).
 
 Task:
-Convert a WH-question into a valid negated WH-question while keeping the same WH-word, overall structure, and visual scope.
-The negated question must ask for the semantic complement of the original query (i.e., what is explicitly NOT true given the original question).
-If the negation cannot stay bounded, meaningful, and within the same semantic role, output “not_applicable”.
+Convert a WH-question into a negated WH-question while keeping the same WH-word,
+overall syntactic structure, and visual scope.
+
+ALL questions must be negated.
+Do NOT output "not_applicable" under any circumstance.
+
+The negated question must ask for the semantic complement of the original query
+(i.e., what is explicitly NOT true given the original question),
+while preserving the same semantic role.
 
 ========================================
 OUTPUT FORMAT (minimal)
 ========================================
 Return ONLY a JSON list.
+
 Each item MUST follow EXACTLY:
 {
   "id": <image_id>,
   "q": <original_question>,
-  "neg_q": <negated_or_not_applicable>,
+  "neg_q": <negated_question>,
   "a": <same_answer>,
-  "type": <AC|AT|CO|EX|not_applicable>
+  "type": <AC|AT|CO|EX>
 }
 
 ========================================
 VALID NEGATION TYPES
 ========================================
-1. **AC (Action)**
-For actions, holding, wearing, using, interacting.
-- “What is the man holding?” → “What is the man not holding?”
+1. AC (Action)
+Actions such as holding, wearing, using, interacting.
+Example:
+"What is the man holding?" → "What is the man not holding?"
 
-2. **AT (Attribute)**
-For visible color/material/shape/texture/category.
-- “What color is the jacket?” → “What is not the color of the jacket?”
+2. AT (Attribute)
+Visible attributes such as color, material, shape, texture, size, or category.
+Example:
+"What color is the jacket?" → "What is not the color of the jacket?"
 
-3. **CO (Comparison)**
-Only when the question asks for a bounded alternative (e.g., direction).
-- “Which direction is X?” → “Which direction is not X?”
+3. CO (Comparison)
+Bounded alternatives such as direction or relative position.
+Example:
+"Which direction is X facing?" → "Which direction is X not facing?"
 
-4. **EX (Existence)**
+4. EX (Existence)
 Only allowed pattern:
-- “Where is X?” → “Where is there no X?”
-X must be singular.
-
-========================================
-ALWAYS RETURN “not_applicable” FOR:
-========================================
-1. **Identity questions**
-(what is this / what is that object / what kind/type is this / what is the fruit / what device is this)
-→ Negation creates an unbounded set.
+"Where is X?" → "Where is there no X?"
+Treat X as singular.
 
 ========================================
 GENERAL RULES
 ========================================
-- Keep the same WH-word and overall syntactic structure.
-- Prefer placing the negation immediately after the auxiliary or copula
-  (e.g., “is / are / does”) and before the queried noun phrase,
-  rather than at the end of the question.
-- Do not add information or make inferences.
-- Negation must remain visually grounded and bounded.
-- Negation must denote the semantic complement of the original queried set.
-- “a” (answer) must be identical to the original.
+- Keep the same WH-word and overall sentence structure.
+- Place negation immediately after the auxiliary or copula
+  (e.g., is / are / does / do / can).
+- Do not add new information or make inferences.
+- Negation must remain visually grounded.
+- Negation must target the same semantic role as the original question.
+- The answer field "a" must be identical to the original answer.
