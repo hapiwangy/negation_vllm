@@ -61,7 +61,7 @@ def run():
 
     # 建立 thread pool
     # 👉 可依 API 限速調整，例如 4 / 8 / 16
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=2) as executor:
 
         # ISARE
         for x in range(ITER):
