@@ -45,7 +45,7 @@ def run():
     files = list(config.MASK_DIR.glob("FINAL*"))
 
     # 可依 API rate limit 調整
-    max_workers = 8
+    max_workers = 4
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_file, f, prompts) for f in files]
