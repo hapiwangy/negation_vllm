@@ -23,14 +23,14 @@ def query_llm(system_prompt, user_input):
     注意：標準 OpenAI SDK 使用 chat.completions.create
     """
     try:
-        response = client.chat.completions.create(
+        response = client.responses.create(
             model=config.MODEL_ID,
-            messages=[
+            input =[
                 {'role': 'system', 'content': system_prompt},
                 {'role': 'user', 'content': user_input}
             ]
         )
-        return response.choices[0].message.content
+        return response.output_text
     except Exception as e:
         print(f"Error querying LLM: {e}")
         return "{}" # Return empty json string on error or handle appropriately
