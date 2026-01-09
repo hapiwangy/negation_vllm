@@ -4,11 +4,16 @@ from utils import load_json, save_json
 def run():
     answer_cal = {"a":0, "b":0}
     print("--- Step 2: Answer Construction ---")
-    
+    failed_files = []
     # 1. Process ISARE files
     isare_files = list(config.ISARE_DIR.glob("ISARE*"))
     for file in isare_files:
-        data = load_json(file)
+        try:
+            data = load_json(file)
+        except Exception as e:
+            failed_files.append(file)
+            print(f"Failed to load {file}: {e}")
+            continue
         result = []
         for element in data:            
             if answer_cal["a"] < answer_cal["b"]: 
@@ -42,10 +47,19 @@ def run():
         if not answer_file.exists():
             print(f"Warning: Answer file {answer_file} not found for {wf}")
             continue
-
-        whneg = load_json(wf)
-        whanswer = load_json(answer_file)
         
+        try:
+            whneg = load_json(wf)
+        except Exception as e:
+            failed_files.append(wf)
+            print(f"Failed to load {wf}: {e}")
+            continue
+        try:
+            whanswer = load_json(answer_file)
+        except Exception as e:
+            failed_files.append(answer_file)
+            print(f"Failed to load {answer_file}: {e}")
+            continue        
         # Create lookup dict
         whanswer_map = {x['neg_q']: x for x in whanswer if 'neg_q' in x}
 
@@ -54,25 +68,9 @@ def run():
             if element.get('neg_q') == "not_applicable":
                 continue
             
-            # Using original question 'q' to map back seems to be the logic in your code
-            # But ensure the key exists
-            if element['q'] in whanswer_map: # This logic looked a bit weird in original, simplified here
-                 # Note: Review your original logic: whanswer was mapped by neg_q, but accessed by q?
-                 # Assuming mapping by neg_q is safer if structure allows.
-                 pass
-            
-            # Reverting to your exact original logic for safety:
-            # whanswer map was { x['neg_q']: x }
-            # But you accessed it via answer_element = whanswer[element['q']]
-            # This implies neg_q in the answer file is actually the original q? 
-            # I will keep logic generic but robust:
-            
-            # Use a safer join key if possible. For now, following original logic:
-            # The original logic seemed to map answer dict by neg_q, but query by element['q'].
-            # This implies whanswer's 'neg_q' field actually contained the original question string?
-            # If so, proceed. If not, this is a bug in original code.
-            
-            # Let's assume whanswer is indexed by original question for safety in matching
+
+            if element['q'] in whanswer_map: 
+                pass
             ans_entry = next((item for item in whanswer if item["q"] == element["q"]), None)
             
             if ans_entry:

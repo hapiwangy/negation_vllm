@@ -2,7 +2,6 @@ import json
 from openai import OpenAI
 import config
 
-# 初始化 Client (全域單例)
 client = OpenAI(api_key=config.OPENAI_API_KEY)
 
 def load_json(path):
@@ -18,10 +17,6 @@ def load_prompt(filename):
         return fp.read()
 
 def query_llm(system_prompt, user_input):
-    """
-    統一的 LLM 呼叫介面。
-    注意：標準 OpenAI SDK 使用 chat.completions.create
-    """
     try:
         response = client.responses.create(
             model=config.MODEL_ID,

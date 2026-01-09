@@ -19,6 +19,6 @@
             - yesno_content.json
             - wh_content.json
         - dataset2 ... 
-- balanced the correct answer label when constructing the dataset
-- creating data with the modified wh- (removed the not_applicable condition)
 - check the data in different datasets to improve the diversity in our VQA dataset
+- check the unused data
+- check why json error happened and the fix

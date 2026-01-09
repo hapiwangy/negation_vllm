@@ -8,7 +8,6 @@ STOP_EVENT = Event()
 
 def process_batch(prompt_text, batch_data, save_path, desc):
     if STOP_EVENT.is_set(): return
-    """單一 LLM 任務（給 thread 用）"""
     print(f"Processing {desc}...")
     try:
         response_str = query_llm(prompt_text, str(batch_data))
@@ -56,20 +55,23 @@ def run():
 
     NUM = int(os.getenv("TASK1NUM"))
     ITER = int(os.getenv("TASK1ITER"))
+    START = int(os.getenv("TASK1START"))
 
     tasks = []
 
-    # 建立 thread pool
-    # 👉 可依 API 限速調整，例如 4 / 8 / 16
+    #  thread pool
+    #  change based on the api limitation
     with ThreadPoolExecutor(max_workers=2) as executor:
 
         # ISARE
         for x in range(ITER):
+            FROM = START + NUM * x
+            UNTIL = START + NUM * (x + 1)
             if STOP_EVENT.is_set(): break
-            batch_data = yesno_content[NUM * x : NUM * (x + 1)]
+            batch_data = yesno_content[FROM : UNTIL]
             for key, prompt_text in prompts["ISARE"].items():
                 if STOP_EVENT.is_set(): break
-                filename = f"ISARE_{key}{NUM * x}{NUM * (x + 1)}.json"
+                filename = f"ISARE_{key}{FROM}{UNTIL}.json"
                 save_path = config.ISARE_DIR / filename
                 # desc = (x + 1, key)
                 desc = f"ISARE batch {x+1}, type {key}"
@@ -85,11 +87,13 @@ def run():
 
         # WH
         for x in range(ITER):
+            FROM = START + NUM * x
+            UNTIL = START + NUM * (x + 1)
             if STOP_EVENT.is_set(): break
-            batch_data = wh_content[NUM * x : NUM * (x + 1)]
+            batch_data = wh_content[FROM : UNTIL]
             for key, prompt_text in prompts["WH"].items():
                 if STOP_EVENT.is_set(): break
-                filename = f"WH_{key}{NUM * x}{NUM * (x + 1)}.json"
+                filename = f"WH_{key}{FROM}{UNTIL}.json"
                 save_path = config.WH_DIR / filename
                 desc = f"WH batch {x+1}, type {key}"
 
@@ -102,7 +106,7 @@ def run():
                 )
                 tasks.append(future)
 
-        # 等所有 threads 完成（可抓例外）
+        # wait for the thread to be finished
         for future in as_completed(tasks):
             future.result()
 
