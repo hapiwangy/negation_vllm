@@ -33,8 +33,32 @@ def process_batch(prompt_text, batch_data, save_path, desc):
         with open("errorhappened.json", "w", encoding="utf-8") as f:
             json.dump(progress, f, ensure_ascii=False, indent=2)
 
+def process_batch_return(prompt_text, batch_data, desc):
+    """Run LLM on batch_data and return parsed JSON (or raw string if JSON fails)."""
+    if STOP_EVENT.is_set():
+        return None
+    print(f"Processing {desc}...")
+    try:
+        response_str = query_llm(prompt_text, str(batch_data))
+        try:
+            return json.loads(response_str)
+        except json.JSONDecodeError:
+            print(f"Failed to decode JSON for {desc}")
+            return response_str
+    except Exception as e:
+        STOP_EVENT.set()
+        progress = {
+            "desc": desc,
+            "batch_size": len(batch_data),
+            "error_type": type(e).__name__,
+            "error_message": str(e),
+        }
+        with open("errorhappened.json", "w", encoding="utf-8") as f:
+            json.dump(progress, f, ensure_ascii=False, indent=2)
+        raise
+
 def run():
-    print("--- Step 1: Negation Transformation (Multithread) ---")
+    print("--- Step 1: Negation Transformation (2-thread: ISARE + WH) ---")
 
     # Load Prompts
     prompts = {
@@ -53,61 +77,83 @@ def run():
     yesno_content = load_json(config.DATASET_DIR / "yesno_content.json")
     wh_content = load_json(config.DATASET_DIR / "wh_content.json")
 
+    # Shared controls
     NUM = int(os.getenv("TASK1NUM"))
     ITER = int(os.getenv("TASK1ITER"))
-    START = int(os.getenv("TASK1START"))
 
-    tasks = []
+    # Split starts (one group for ISARE, one group for WH)
+    ISARESTART = int(os.getenv("TASK1ISARESTART"))
+    WHSTART = int(os.getenv("TASK1WHSTART"))
 
-    #  thread pool
-    #  change based on the api limitation
-    with ThreadPoolExecutor(max_workers=2) as executor:
+    # ISARE total volume = 3x WH.
+    # Implementation detail to ensure EACH LLM call receives NUM items:
+    # For each WH-sized "block" (b), we take a span of 3*NUM items and split into
+    # three NUM-sized batches by picking every 3rd item.
+    ISARE_BLOCKS = ITER  # number of 3*NUM spans
+    ISARE_CYCLE = ["DIRECT", "SOFT", "DOUBLE"]  # mapping for offsets 0/1/2
 
-        # ISARE
-        for x in range(ITER):
-            FROM = START + NUM * x
-            UNTIL = START + NUM * (x + 1)
-            if STOP_EVENT.is_set(): break
-            batch_data = yesno_content[FROM : UNTIL]
-            for key, prompt_text in prompts["ISARE"].items():
-                if STOP_EVENT.is_set(): break
-                filename = f"ISARE_{key}{FROM}{UNTIL}.json"
+    def isare_worker():
+        for b in range(ISARE_BLOCKS):
+            BASE_FROM = ISARESTART + (3 * NUM) * b
+            BASE_UNTIL = ISARESTART + (3 * NUM) * (b + 1)
+
+            if STOP_EVENT.is_set():
+                break
+
+            span = yesno_content[BASE_FROM:BASE_UNTIL]  # length = 3*NUM
+
+            # Build three NUM-sized batches:
+            # DIRECT: span[0], span[3], ...
+            # SOFT:   span[1], span[4], ...
+            # DOUBLE: span[2], span[5], ...
+            for offset, key in enumerate(ISARE_CYCLE):
+                if STOP_EVENT.is_set():
+                    break
+
+                batch_items = span[offset::3]  # should be NUM items
+                prompt_text = prompts["ISARE"][key]
+                desc = f"ISARE block {b+1}/{ISARE_BLOCKS}, type {key}, batch_size={len(batch_items)}"
+
+                result = process_batch_return(prompt_text, batch_items, desc)
+
+                filename = f"ISARE_{key}{BASE_FROM}{BASE_UNTIL}.json"
                 save_path = config.ISARE_DIR / filename
-                # desc = (x + 1, key)
-                desc = f"ISARE batch {x+1}, type {key}"
 
-                future = executor.submit(
-                    process_batch,
-                    prompt_text,
-                    batch_data,
-                    save_path,
-                    desc
-                )
-                tasks.append(future)
+                payload = {
+                    "from": BASE_FROM,
+                    "until": BASE_UNTIL,
+                    "transform": key,
+                    "stride_offset": offset,   # 0/1/2 within the 3*NUM span
+                    "stride": 3,
+                    "data": result,
+                }
+                save_json(payload["data"], save_path)
+                print(f"[ISARE] Saved {save_path.name}")
 
-        # WH
+    def wh_worker():
         for x in range(ITER):
-            FROM = START + NUM * x
-            UNTIL = START + NUM * (x + 1)
-            if STOP_EVENT.is_set(): break
-            batch_data = wh_content[FROM : UNTIL]
+            FROM = WHSTART + NUM * x
+            UNTIL = WHSTART + NUM * (x + 1)
+            if STOP_EVENT.is_set():
+                break
+
+            batch_data = wh_content[FROM:UNTIL]
             for key, prompt_text in prompts["WH"].items():
-                if STOP_EVENT.is_set(): break
+                if STOP_EVENT.is_set():
+                    break
+
                 filename = f"WH_{key}{FROM}{UNTIL}.json"
                 save_path = config.WH_DIR / filename
                 desc = f"WH batch {x+1}, type {key}"
 
-                future = executor.submit(
-                    process_batch,
-                    prompt_text,
-                    batch_data,
-                    save_path,
-                    desc
-                )
-                tasks.append(future)
+                process_batch(prompt_text, batch_data, save_path, desc)
+                print(f"[WH] Saved {save_path.name}")
 
-        # wait for the thread to be finished
-        for future in as_completed(tasks):
-            future.result()
+    # Run ISARE and WH in two separate threads
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        f_isare = executor.submit(isare_worker)
+        f_wh = executor.submit(wh_worker)
+        f_isare.result()
+        f_wh.result()
 
     print("=== All tasks completed ===")
