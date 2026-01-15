@@ -23,10 +23,10 @@ def main():
     logging.info("start of the process")
 
     steps = [
-        ("Transformation", step1_transformation.run),
+       # ("Transformation", step1_transformation.run),
         ("Answer Construction", step2_answer_builder.run),
-        ("Mask Generation", step3_mask_generation.run),
-        ("Dataset Compilation", step4_dataset_compiler.run),
+    #    ("Mask Generation", step3_mask_generation.run),
+     #   ("Dataset Compilation", step4_dataset_compiler.run),
     ]
 
     t_total0 = time.perf_counter()
